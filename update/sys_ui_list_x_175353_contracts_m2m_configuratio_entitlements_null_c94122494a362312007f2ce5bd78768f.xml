@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="c94122494a362312007f2ce5bd78768f" table="x_175353_contracts_m2m_configuratio_entitlements" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>configuration_item</element>
+            <list_id display_value="x_175353_contracts_m2m_configuratio_entitlements" element="NULL" name="x_175353_contracts_m2m_configuratio_entitlements" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b2a7d38c4fd063002e7e8020a310c73f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 20:34:08</sys_created_on>
+            <sys_id>7aa7d38c4fd063002e7e8020a310c73f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 20:34:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>date_provisioned</element>
+            <list_id display_value="x_175353_contracts_m2m_configuratio_entitlements" element="NULL" name="x_175353_contracts_m2m_configuratio_entitlements" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b2a7d38c4fd063002e7e8020a310c73f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 20:34:08</sys_created_on>
+            <sys_id>faa7d38c4fd063002e7e8020a310c73f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 20:34:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>entitlements</element>
+            <list_id display_value="x_175353_contracts_m2m_configuratio_entitlements" element="NULL" name="x_175353_contracts_m2m_configuratio_entitlements" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b2a7d38c4fd063002e7e8020a310c73f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 20:34:08</sys_created_on>
+            <sys_id>7ea7d38c4fd063002e7e8020a310c73f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 20:34:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_175353_contracts_m2m_configuratio_entitlements</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 20:27:09</sys_created_on>
+            <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
+            <sys_domain_path>!!!/!!$/</sys_domain_path>
+            <sys_id>2016d70c4fd063002e7e8020a310c708</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_175353_contracts_m2m_configuratio_entitlements</sys_name>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_ui_list_x_175353_contracts_m2m_configuratio_entitlements_null_c94122494a362312007f2ce5bd78768f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 20:27:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

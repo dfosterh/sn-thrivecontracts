@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Time Worked" max_length="40" name="task_time_worked" type="collection">
+        <element label="Configuration Item" max_length="32" name="x_175353_contracts_configuration_item" reference="cmdb_ci" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Financial" section_id="307001f34f4023002e7e8020a310c798" sys_domain="global" table="ast_contract" version="3" view="Service_Contract">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_center</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:54:58</sys_created_on>
+            <sys_id>387041f34f4023002e7e8020a310c76e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">307001f34f4023002e7e8020a310c798</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tax_exempt</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:54:58</sys_created_on>
+            <sys_id>b87041f34f4023002e7e8020a310c76e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">307001f34f4023002e7e8020a310c798</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sales_tax</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:54:58</sys_created_on>
+            <sys_id>3c7041f34f4023002e7e8020a310c76e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">307001f34f4023002e7e8020a310c798</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:54:58</sys_created_on>
+            <sys_id>bc7041f34f4023002e7e8020a310c76e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">307001f34f4023002e7e8020a310c798</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:54:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoice_payment_terms</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:54:58</sys_created_on>
+            <sys_id>307041f34f4023002e7e8020a310c76f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">307001f34f4023002e7e8020a310c798</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payment_schedule</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:54:58</sys_created_on>
+            <sys_id>b07041f34f4023002e7e8020a310c76f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_contract" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">307001f34f4023002e7e8020a310c798</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:54:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Financial</caption>
+            <header>false</header>
+            <name>ast_contract</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-27 14:54:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>307001f34f4023002e7e8020a310c798</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Financial</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_ui_section_307001f34f4023002e7e8020a310c798</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-27 14:54:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Service Contract" name="Service_Contract">a7ddf0734f4023002e7e8020a310c7d2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

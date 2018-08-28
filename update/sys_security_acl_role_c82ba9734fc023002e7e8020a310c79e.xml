@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-27 18:01:25</sys_created_on>
+        <sys_id>c82ba9734fc023002e7e8020a310c79e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_175353_contracts_entitlement.x_175353_contracts.entitlement_user</sys_name>
+        <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+        <sys_security_acl display_value="x_175353_contracts_entitlement">4c2ba9734fc023002e7e8020a310c79a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c82ba9734fc023002e7e8020a310c79e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-27 18:01:25</sys_updated_on>
+        <sys_user_role display_value="x_175353_contracts.entitlement_user" name="x_175353_contracts.entitlement_user">eb1b2d3b4f8023002e7e8020a310c715</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

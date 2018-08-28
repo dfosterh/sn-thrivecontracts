@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="8463df734f0823002e7e8020a310c7ef" sys_domain="global" table="x_175353_contracts_entitlement" version="3" view="Service_Contract">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_portfolio_item</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 12:32:21</sys_created_on>
+            <sys_id>bd69ad884f9c23002e7e8020a310c79e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_entitlement" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">8463df734f0823002e7e8020a310c7ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 12:32:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>contract</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 12:32:21</sys_created_on>
+            <sys_id>3169ad884f9c23002e7e8020a310c79f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_entitlement" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">8463df734f0823002e7e8020a310c7ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 12:32:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantity</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 12:32:21</sys_created_on>
+            <sys_id>b169ad884f9c23002e7e8020a310c79f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_entitlement" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">8463df734f0823002e7e8020a310c7ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 12:32:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bill_contracted_qty</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 12:32:21</sys_created_on>
+            <sys_id>3569ad884f9c23002e7e8020a310c79f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_entitlement" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">8463df734f0823002e7e8020a310c7ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 12:32:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unit_price</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 12:32:21</sys_created_on>
+            <sys_id>b569ad884f9c23002e7e8020a310c79f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_entitlement" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">8463df734f0823002e7e8020a310c7ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 12:32:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 12:32:21</sys_created_on>
+            <sys_id>3969ad884f9c23002e7e8020a310c79f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_entitlement" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">8463df734f0823002e7e8020a310c7ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 12:32:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_start</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 12:32:21</sys_created_on>
+            <sys_id>b969ad884f9c23002e7e8020a310c79f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_entitlement" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">8463df734f0823002e7e8020a310c7ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 12:32:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_end</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 12:32:21</sys_created_on>
+            <sys_id>3d69ad884f9c23002e7e8020a310c79f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_entitlement" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">8463df734f0823002e7e8020a310c7ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 12:32:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>provisioned_quantity</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 12:32:21</sys_created_on>
+            <sys_id>bd69ad884f9c23002e7e8020a310c79f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_entitlement" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">8463df734f0823002e7e8020a310c7ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 12:32:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>can_exceed_contracted_qty</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 12:32:21</sys_created_on>
+            <sys_id>3169ad884f9c23002e7e8020a310c7a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_entitlement" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">8463df734f0823002e7e8020a310c7ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 12:32:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 12:32:21</sys_created_on>
+            <sys_id>b169ad884f9c23002e7e8020a310c7a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_entitlement" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">8463df734f0823002e7e8020a310c7ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 12:32:21</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 12:32:21</sys_created_on>
+            <sys_id>3569ad884f9c23002e7e8020a310c7a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_entitlement" sys_domain="global" view="a7ddf0734f4023002e7e8020a310c7d2">8463df734f0823002e7e8020a310c7ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 12:32:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_175353_contracts_entitlement</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-28 01:36:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8463df734f0823002e7e8020a310c7ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_175353_contracts_entitlement</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_ui_section_8463df734f0823002e7e8020a310c7ef</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-28 01:36:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Service Contract" name="Service_Contract">a7ddf0734f4023002e7e8020a310c7d2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

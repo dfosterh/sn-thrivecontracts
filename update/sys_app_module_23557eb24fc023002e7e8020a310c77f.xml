@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Thrive Contracts">798fe9aa4fc023002e7e8020a310c730</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="ast_contract">x_175353_contracts_companyISNOTEMPTY^EQ<item endquery="false" field="x_175353_contracts_company" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Contracts</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>ast_contract</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-24 20:52:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>23557eb24fc023002e7e8020a310c77f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Contracts</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+        <sys_update_name>sys_app_module_23557eb24fc023002e7e8020a310c77f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-27 15:27:20</sys_updated_on>
+        <timeline_page/>
+        <title>Contracts</title>
+        <uncancelable>false</uncancelable>
+        <view_name>Service_Contract</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>sku</col_name_string>
+        <index_col_name element="sku" name="x_175353_contracts_service_portfolio">62cf61ea4fc023002e7e8020a310c71f</index_col_name>
+        <logical_table_name>x_175353_contracts_service_portfolio</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-08-23 21:11:11</sys_created_on>
+        <sys_id>8d3075ea4fc023002e7e8020a310c76c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_175353_contracts_service_portfolio</sys_name>
+        <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+        <sys_update_name>sys_index_x_175353_contracts_service_portfolio_sku</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-08-23 21:11:11</sys_updated_on>
+        <table display_value="Service Portfolio" name="x_175353_contracts_service_portfolio">2e2fe5aa4fc023002e7e8020a310c746</table>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>
