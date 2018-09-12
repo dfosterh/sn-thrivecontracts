@@ -28,23 +28,27 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	var count = new GlideAggregate('x_175353_contracts_m2m_configuratio_entitlements');
-	count.addQuery('entitlements', current.sys_id);
-	count.addAggregate('COUNT');
-	count.setGroup(false);
-	count.query();
-	
-	var amount = 0;
-	
-	if (count.next()) {
-		amount = count.getAggregate('COUNT');
+	try {
+		var count = new GlideAggregate('x_175353_contracts_m2m_configuratio_entitlements');
+		count.addQuery('entitlements', current.sys_id);
+		count.addAggregate('COUNT');
+		count.setGroup(false);
+		count.query();
+
+		var amount = 0;
+
+		if (count.next()) {
+			amount = count.getAggregate('COUNT');
+		}
+
+		if (current.provisioned_quantity != amount){
+			current.provisioned_quantity = amount;
+//redundant since this is "before" trigger			current.update();
+		}
 	}
-	
-	if (current.provisioned_quantity != amount){
-		current.provisioned_quantity = amount;
-		current.update();
+	catch(ex) {
+		gs.addErrorMessage(ex.message);
 	}
-	
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -52,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c46f97fb4f0823002e7e8020a310c759</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>UpdateEntitlementCount</sys_name>
         <sys_overrides/>
         <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
@@ -60,7 +64,7 @@
         <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
         <sys_update_name>sys_script_c46f97fb4f0823002e7e8020a310c759</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-28 21:51:20</sys_updated_on>
+        <sys_updated_on>2018-08-31 14:49:03</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

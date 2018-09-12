@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>TriggerEntitlementUpdate</name>
+        <name>CIEntitlementChanged</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -27,37 +27,25 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	try {
-		var e = new GlideRecord('x_175353_contracts_entitlement');
-		e.get(current.entitlements.sys_id);
-
-		if (e.next) {
-			e.provisioned_quantity = -1; //must be a change to register as an update (e.g., 0 does not update 0)
-			e.update();
-		}
-	}
-	catch(ex) {
-		gs.addErrorMessage(ex.message);
-	}
-})(current, previous);]]></script>
+        <script><![CDATA[x_175353_contracts.ContractUtil.logEntitlementHistory(current, 'CI');
+]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-28 20:47:42</sys_created_on>
+        <sys_created_on>2018-08-29 21:41:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>76a99fcc4fd063002e7e8020a310c733</sys_id>
-        <sys_mod_count>15</sys_mod_count>
-        <sys_name>TriggerEntitlementUpdate</sys_name>
+        <sys_id>7dbd24a84fd023002e7e8020a310c73d</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>CIEntitlementChanged</sys_name>
         <sys_overrides/>
         <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
         <sys_policy/>
         <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
-        <sys_update_name>sys_script_76a99fcc4fd063002e7e8020a310c733</sys_update_name>
+        <sys_update_name>sys_script_7dbd24a84fd023002e7e8020a310c73d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-31 14:48:39</sys_updated_on>
+        <sys_updated_on>2018-08-30 22:07:12</sys_updated_on>
         <template/>
-        <when>after</when>
+        <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=76a99fcc4fd063002e7e8020a310c733"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=7dbd24a84fd023002e7e8020a310c73d"/>
 </record_update>

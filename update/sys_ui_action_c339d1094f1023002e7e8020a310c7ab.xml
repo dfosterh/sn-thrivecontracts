@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>sysverb_edit_m2m</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2/>
+        <comments>Action is a copy of the global Edit... button for M2M. Using the exact same Action name "sysverb_edit_m2m" overrides the global button, and somehow makes the form work. Using a different Action name errors on "no record selected."&#13;
+&#13;
+This was in global button condition. Not required here as this is for a specific m2m table: (new GlideRecord(current.getTableName())).canCreate() &amp;&amp; RP.isManyToMany() &amp;&amp; !RP.getListControl().isOmitEditButton()</comments>
+        <condition>(new GlideRecord(current.getTableName())).canCreate() &amp;&amp; RP.isManyToMany()</condition>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Provision</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[try {
+	var uri = action.getGlideURI();
+	var path = uri.getFileFromPath();
+	var type = parent.getValue('type');
+	uri.set('sysparm_m2m_ref', current.getTableName());
+	uri.set('sysparm_stack', 'no');
+
+	//this is the custom filter to ensure only current company's CIs appear:
+	if(parent && parent.getTableName() == 'x_175353_contracts_entitlement') {
+		uri.set('sysparm_query', 'company=' + parent.contract.x_175353_contracts_company);
+	}
+	//this could be the list control from CI, but it does not work. parent is null, and link reference does not work the same at all
+//	else {
+//		uri.set('sysparm_query', 'company=' + current.company);
+//	}
+
+	if(!gs.nil(type) && type == 'external') {
+		uri.set('sysparm_query', 'sys_class_name=customer_contact');
+	}
+
+	action.setRedirectURL(uri.toString('sys_m2m_template.do'));
+}
+catch(ex) {
+	gs.addErrorMessage(ex.message);
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-31 13:58:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c339d1094f1023002e7e8020a310c7ab</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Provision</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+        <sys_update_name>sys_ui_action_c339d1094f1023002e7e8020a310c7ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-31 16:35:45</sys_updated_on>
+        <table>x_175353_contracts_m2m_configuratio_entitlements</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

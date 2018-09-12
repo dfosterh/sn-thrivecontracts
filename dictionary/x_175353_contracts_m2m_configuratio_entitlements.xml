@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="CI Entitlements" max_length="40" name="x_175353_contracts_m2m_configuratio_entitlements" type="collection">
-        <element label="Configuration Item" max_length="32" name="configuration_item" read_only="true" reference="cmdb_ci" type="reference"/>
+    <element attributes="target_form=default_view" label="CI Entitlements" max_length="40" name="x_175353_contracts_m2m_configuratio_entitlements" type="collection">
+        <element label="Configuration Item" mandatory="true" max_length="32" name="configuration_item" read_only="true" reference="cmdb_ci" type="reference"/>
         <element default="javascript:new GlideDateTime().getDisplayValue()" label="Date Provisioned" mandatory="true" max_length="40" name="date_provisioned" type="glide_date"/>
         <element label="Entitlement" max_length="32" name="entitlements" reference="x_175353_contracts_entitlement" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="entitlements"/>
         </index>
         <index name="index2">
             <element name="configuration_item"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
         </index>
     </element>
 </database>
