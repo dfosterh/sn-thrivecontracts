@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-27 18:32:04</sys_created_on>
-        <sys_id>d602fdf74fc023002e7e8020a310c7cf</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>2e14dd914fa423002e7e8020a310c76a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Description</sys_name>
         <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
         <sys_policy/>
         <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
         <sys_update_name>sys_dictionary_x_175353_contracts_entitlement_description</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-31 19:14:48</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-09-13 18:27:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

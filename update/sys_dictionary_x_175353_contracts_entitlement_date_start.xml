@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-27 18:08:14</sys_created_on>
-        <sys_id>ce9cadb34fc023002e7e8020a310c79b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>ea14dd914fa423002e7e8020a310c769</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Date Start</sys_name>
         <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
         <sys_policy/>
         <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
         <sys_update_name>sys_dictionary_x_175353_contracts_entitlement_date_start</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-28 12:31:33</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-09-13 18:27:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

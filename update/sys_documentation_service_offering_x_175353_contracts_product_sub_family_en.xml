@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_175353_contracts_product_sub_family" label="Product sub-family" language="en" table="service_offering">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_product_sub_family</element>
+            <help/>
+            <hint/>
+            <label>Product sub-family</label>
+            <language>en</language>
+            <name>service_offering</name>
+            <plural>Product sub-families</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-17 16:10:40</sys_created_on>
+            <sys_id>322b912a4f2023002e7e8020a310c70e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Product sub-family</sys_name>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_documentation_service_offering_x_175353_contracts_product_sub_family_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-17 16:10:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

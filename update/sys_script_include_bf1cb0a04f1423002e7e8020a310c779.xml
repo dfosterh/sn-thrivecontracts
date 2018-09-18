@@ -16,17 +16,16 @@ ContractUtil.logEntitlementHistory = function(m2mRecord, grantedTo) {
 		h.event = m2mRecord.operation();
 		h.event_date = new GlideDateTime();
 		h.m2m_sys_id = m2mRecord.sys_id;
-		h.entitlement = m2mRecord.entitlements.sys_id;
-		h.entitlement_sys_id = m2mRecord.entitlements.sys_id;
-		h.service_portfolio = m2mRecord.entitlements.service_portfolio_item.sys_id;
-		h.service_portfolio_sys_id = m2mRecord.entitlements.service_portfolio_item.sys_id;
+		h.service_allocation = m2mRecord.service_allocation;
+		h.business_service = m2mRecord.service_allocation.business_service;
+		h.business_service_id = m2mRecord.service_allocation.business_service;
 		h.date_provisioned = m2mRecord.date_provisioned;
 
 		h.granted_to = grantedTo;
 		if (grantedTo == 'CI') {
-			h.granted_to_sys_id = m2mRecord.configuration_item.sys_id;
-			h.company = m2mRecord.configuration_item.company.sys_id;
-			h.company_sys_id = m2mRecord.configuration_item.company.sys_id;
+			h.granted_to_sys_id = m2mRecord.configuration_item;
+			h.company = m2mRecord.configuration_item.company;
+			h.company_sys_id = m2mRecord.configuration_item.company;
 		}
 
 		h.insert();
@@ -43,13 +42,13 @@ ContractUtil.type = 'ContractUtil';
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-29 22:42:47</sys_created_on>
         <sys_id>bf1cb0a04f1423002e7e8020a310c779</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name>ContractUtil</sys_name>
         <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
         <sys_update_name>sys_script_include_bf1cb0a04f1423002e7e8020a310c779</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-31 19:47:20</sys_updated_on>
+        <sys_updated_on>2018-09-17 22:21:32</sys_updated_on>
     </sys_script_include>
 </record_update>

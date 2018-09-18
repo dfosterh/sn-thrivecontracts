@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Entitlement History" max_length="40" name="x_175353_contracts_entitlement_history" type="collection">
-        <element label="Company" mandatory="true" max_length="32" name="company" read_only="true" reference="core_company" reference_cascade_rule="none" type="reference"/>
+    <element label="Service Allocation History" max_length="40" name="x_175353_contracts_entitlement_history" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Business Service" mandatory="true" max_length="32" name="business_service" read_only="true" reference="cmdb_ci_service" reference_cascade_rule="none" type="reference"/>
+        <element label="Business Service ID" mandatory="true" max_length="32" name="business_service_id" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Company" mandatory="true" max_length="32" name="company" read_only="true" reference="core_company" reference_cascade_rule="none" type="reference"/>
         <element label="Company ID" mandatory="true" max_length="32" name="company_sys_id" read_only="true" type="string"/>
         <element default="javascript: new GlideDateTime().getDisplayValue()" label="created SPOOF" mandatory="true" max_length="40" name="created_spoof" type="glide_date_time"/>
-        <element label="Date Provisioned" mandatory="true" max_length="40" name="date_provisioned" read_only="true" type="glide_date"/>
-        <element label="Entitlement" mandatory="true" max_length="32" name="entitlement" read_only="true" reference="x_175353_contracts_entitlement" reference_cascade_rule="none" type="reference"/>
-        <element label="Entitlement ID" mandatory="true" max_length="32" name="entitlement_sys_id" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Provisioned" mandatory="true" max_length="40" name="date_provisioned" read_only="true" type="glide_date"/>
         <element label="Event" mandatory="true" max_length="32" name="event" read_only="true" type="string"/>
-        <element label="Event Date" mandatory="true" max_length="40" name="event_date" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Event Date" mandatory="true" max_length="40" name="event_date" read_only="true" type="glide_date_time"/>
         <element label="Granted To" mandatory="true" max_length="32" name="granted_to" read_only="true" type="string"/>
         <element label="Granted To ID" mandatory="true" max_length="32" name="granted_to_sys_id" read_only="true" type="string"/>
         <element label="M2M ID" mandatory="true" max_length="32" name="m2m_sys_id" read_only="true" type="string"/>
-        <element label="Service Portfolio" mandatory="true" max_length="32" name="service_portfolio" read_only="true" reference="x_175353_contracts_service_portfolio" reference_cascade_rule="none" type="reference"/>
-        <element label="Service Portfolio ID" mandatory="true" max_length="32" name="service_portfolio_sys_id" read_only="true" type="string"/>
+        <element label="Service Allocation" max_length="32" name="service_allocation" read_only="true" reference="x_175353_contracts_entitlement" reference_cascade_rule="none" type="reference"/>
         <index name="index">
-            <element name="company"/>
+            <element name="business_service"/>
         </index>
         <index name="index2">
-            <element name="entitlement"/>
+            <element name="service_allocation"/>
         </index>
         <index name="index3">
-            <element name="service_portfolio"/>
+            <element name="company"/>
         </index>
     </element>
 </database>

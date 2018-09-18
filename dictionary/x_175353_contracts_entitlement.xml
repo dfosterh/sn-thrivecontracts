@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Entitlements" max_length="40" name="x_175353_contracts_entitlement" type="collection">
-        <element label="Bill Contracted Qty" max_length="40" name="bill_contracted_qty" type="boolean"/>
-        <element default="true" label="Can Exceed Contracted Qty" max_length="40" name="can_exceed_contracted_qty" type="boolean"/>
-        <element label="Contract" mandatory="true" max_length="32" name="contract" reference="ast_contract" type="reference"/>
-        <element label="Date End" max_length="40" name="date_end" type="glide_date"/>
-        <element default="javascript:new GlideDateTime().getDisplayValue()" label="Date Start" mandatory="true" max_length="40" name="date_start" type="glide_date"/>
+    <element label="Service Allocations" max_length="40" name="x_175353_contracts_entitlement" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Bill Contracted Qty" max_length="40" name="bill_contracted_qty" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Business Service" mandatory="true" max_length="32" name="business_service" reference="cmdb_ci_service" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="true" label="Can Exceed Contracted Qty" max_length="40" name="can_exceed_contracted_qty" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract" mandatory="true" max_length="32" name="contract" reference="ast_contract" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Date End" max_length="40" name="date_end" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:new GlideDateTime().getDisplayValue()" label="Date Start" mandatory="true" max_length="40" name="date_start" type="glide_date"/>
         <element label="Description" mandatory="true" max_length="100" name="description" type="string"/>
-        <element label="Provisioned Quantity" max_length="40" name="provisioned_quantity" read_only="true" type="integer"/>
-        <element label="Contract Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
-        <element display="true" label="Service Portfolio Item" mandatory="true" max_length="32" name="service_portfolio_item" reference="x_175353_contracts_service_portfolio" type="reference"/>
-        <element label="Unit Price" mandatory="true" max_length="20" name="unit_price" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Provisioned Quantity" max_length="40" name="provisioned_quantity" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element attributes="omit_sys_original=true,edge_encryption_enabled=true" label="Unit Price" mandatory="true" max_length="20" name="unit_price" type="currency"/>
         <index name="index">
             <element name="contract"/>
         </index>
         <index name="index2">
-            <element name="service_portfolio_item"/>
+            <element name="business_service"/>
         </index>
     </element>
 </database>

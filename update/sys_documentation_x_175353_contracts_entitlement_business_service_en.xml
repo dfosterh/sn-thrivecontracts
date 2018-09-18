@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="business_service" label="Business Service" language="en" table="x_175353_contracts_entitlement">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>business_service</element>
+            <help/>
+            <hint/>
+            <label>Business Service</label>
+            <language>en</language>
+            <name>x_175353_contracts_entitlement</name>
+            <plural>Business Services</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 20:09:37</sys_created_on>
+            <sys_id>1ee12c494fe023002e7e8020a310c772</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Business Service</sys_name>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_documentation_x_175353_contracts_entitlement_business_service_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 20:09:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

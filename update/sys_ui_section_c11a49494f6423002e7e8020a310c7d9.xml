@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Thrive Contracts" section_id="c11a49494f6423002e7e8020a310c7d9" sys_domain="global" table="cmdb_ci_service" version="3" view="service_portfolio">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_billing_interval</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 23:07:36</sys_created_on>
+            <sys_id>19aa89494f6423002e7e8020a310c7ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Thrive Contracts" display_value="Thrive Contracts" name="cmdb_ci_service" sys_domain="global" view="2fb5987a4f1023002e7e8020a310c7e6">c11a49494f6423002e7e8020a310c7d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 23:07:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_covers</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 23:07:36</sys_created_on>
+            <sys_id>d1aa89494f6423002e7e8020a310c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Thrive Contracts" display_value="Thrive Contracts" name="cmdb_ci_service" sys_domain="global" view="2fb5987a4f1023002e7e8020a310c7e6">c11a49494f6423002e7e8020a310c7d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 23:07:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_ci_class</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 23:07:36</sys_created_on>
+            <sys_id>55aa89494f6423002e7e8020a310c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Thrive Contracts" display_value="Thrive Contracts" name="cmdb_ci_service" sys_domain="global" view="2fb5987a4f1023002e7e8020a310c7e6">c11a49494f6423002e7e8020a310c7d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 23:07:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_tax_code_override</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 23:07:36</sys_created_on>
+            <sys_id>d5aa89494f6423002e7e8020a310c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Thrive Contracts" display_value="Thrive Contracts" name="cmdb_ci_service" sys_domain="global" view="2fb5987a4f1023002e7e8020a310c7e6">c11a49494f6423002e7e8020a310c7d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 23:07:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_tax_category</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 23:07:36</sys_created_on>
+            <sys_id>59aa89494f6423002e7e8020a310c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Thrive Contracts" display_value="Thrive Contracts" name="cmdb_ci_service" sys_domain="global" view="2fb5987a4f1023002e7e8020a310c7e6">c11a49494f6423002e7e8020a310c7d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 23:07:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_tax_subcategory</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 23:07:36</sys_created_on>
+            <sys_id>d9aa89494f6423002e7e8020a310c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Thrive Contracts" display_value="Thrive Contracts" name="cmdb_ci_service" sys_domain="global" view="2fb5987a4f1023002e7e8020a310c7e6">c11a49494f6423002e7e8020a310c7d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 23:07:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_product_family</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 23:07:36</sys_created_on>
+            <sys_id>5daa89494f6423002e7e8020a310c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Thrive Contracts" display_value="Thrive Contracts" name="cmdb_ci_service" sys_domain="global" view="2fb5987a4f1023002e7e8020a310c7e6">c11a49494f6423002e7e8020a310c7d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 23:07:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_product_sub_family</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 23:07:36</sys_created_on>
+            <sys_id>ddaa89494f6423002e7e8020a310c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Thrive Contracts" display_value="Thrive Contracts" name="cmdb_ci_service" sys_domain="global" view="2fb5987a4f1023002e7e8020a310c7e6">c11a49494f6423002e7e8020a310c7d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 23:07:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_eligible_locations</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 23:07:36</sys_created_on>
+            <sys_id>51aa89494f6423002e7e8020a310c7d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Thrive Contracts" display_value="Thrive Contracts" name="cmdb_ci_service" sys_domain="global" view="2fb5987a4f1023002e7e8020a310c7e6">c11a49494f6423002e7e8020a310c7d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 23:07:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_default_service_team</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 23:07:36</sys_created_on>
+            <sys_id>d1aa89494f6423002e7e8020a310c7d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Thrive Contracts" display_value="Thrive Contracts" name="cmdb_ci_service" sys_domain="global" view="2fb5987a4f1023002e7e8020a310c7e6">c11a49494f6423002e7e8020a310c7d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 23:07:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Thrive Contracts</caption>
+            <header>false</header>
+            <name>cmdb_ci_service</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 23:05:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c11a49494f6423002e7e8020a310c7d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Thrive Contracts</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_ui_section_c11a49494f6423002e7e8020a310c7d9</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 23:05:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Service Portfolio" name="service_portfolio">2fb5987a4f1023002e7e8020a310c7e6</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

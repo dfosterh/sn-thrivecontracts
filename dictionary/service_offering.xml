@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci_service" label="Service Offering" max_length="40" name="service_offering" sizeclass="97" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="monthly" label="Billing interval" max_length="7" name="x_175353_contracts_billing_interval" type="choice">
+            <choice/>
+        </element>
+        <element attributes="base_table=cmdb_ci,base_start=true,edge_encryption_enabled=true" choice="1" label="CI class" max_length="128" name="x_175353_contracts_ci_class" type="table_name">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="ci" label="Covers" max_length="4" name="x_175353_contracts_covers" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Default service team" max_length="32" name="x_175353_contracts_default_service_team" reference="sys_user_group" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,edge_encryption_enabled=true" label="Eligible locations" max_length="4000" name="x_175353_contracts_eligible_locations" reference="cmn_location" reference_qual="company=f66b14e1c611227b0166c3a0df4046ff^EQ" reference_qual_condition="company=f66b14e1c611227b0166c3a0df4046ff^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Product family" max_length="32" name="x_175353_contracts_product_family" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Product sub-family" max_length="32" name="x_175353_contracts_product_sub_family" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tax category" max_length="32" name="x_175353_contracts_tax_category" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Tax code override" max_length="40" name="x_175353_contracts_tax_code_override" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tax subcategory" max_length="32" name="x_175353_contracts_tax_subcategory" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

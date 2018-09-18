@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="CI Service Allocations" max_length="40" name="x_175353_contracts_m2m_configuratio_service_allo" type="collection">
+        <element label="Configuration Item" max_length="32" name="configuration_item" reference="cmdb_ci" type="reference"/>
+        <element default="javascript:new GlideDate().getDisplayValue();" label="Date Provisioned" mandatory="true" max_length="40" name="date_provisioned" type="glide_date"/>
+        <element label="Service Allocation" max_length="32" name="service_allocation" reference="x_175353_contracts_entitlement" type="reference"/>
+        <index name="index">
+            <element name="configuration_item"/>
+        </index>
+        <index name="index2">
+            <element name="service_allocation"/>
+        </index>
+    </element>
+</database>

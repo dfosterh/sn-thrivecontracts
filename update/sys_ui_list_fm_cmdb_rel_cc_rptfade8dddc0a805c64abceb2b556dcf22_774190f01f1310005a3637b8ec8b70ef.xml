@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="fm_cmdb_rel_cc" version="2" view="RPTfade8dddc0a805c64abceb2b556dcf22">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cost_center</element>
+            <list_id display_value="fm_cmdb_rel_cc" element="NULL" name="fm_cmdb_rel_cc" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="55c62baa4fe423002e7e8020a310c716">a5c62baa4fe423002e7e8020a310c794</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 02:20:38</sys_created_on>
+            <sys_id>65c62baa4fe423002e7e8020a310c795</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 02:20:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cmdb_ci</element>
+            <list_id display_value="fm_cmdb_rel_cc" element="NULL" name="fm_cmdb_rel_cc" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="55c62baa4fe423002e7e8020a310c716">a5c62baa4fe423002e7e8020a310c794</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 02:20:38</sys_created_on>
+            <sys_id>fdc62baa4fe423002e7e8020a310c795</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 02:20:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>allocation_units</element>
+            <list_id display_value="fm_cmdb_rel_cc" element="NULL" name="fm_cmdb_rel_cc" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="55c62baa4fe423002e7e8020a310c716">a5c62baa4fe423002e7e8020a310c794</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 02:20:38</sys_created_on>
+            <sys_id>71c62baa4fe423002e7e8020a310c796</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 02:20:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>fm_cmdb_rel_cc</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 02:20:38</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>a5c62baa4fe423002e7e8020a310c794</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>fm_cmdb_rel_cc</sys_name>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_ui_list_fm_cmdb_rel_cc_RPTfade8dddc0a805c64abceb2b556dcf22_774190f01f1310005a3637b8ec8b70ef</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 02:20:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptfade8dddc0a805c64abceb2b556dcf22" name="RPTfade8dddc0a805c64abceb2b556dcf22">55c62baa4fe423002e7e8020a310c716</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

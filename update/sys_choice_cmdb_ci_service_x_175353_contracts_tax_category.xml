@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_175353_contracts_tax_category" table="cmdb_ci_service" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_175353_contracts_tax_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TBD</label>
+            <language>en</language>
+            <name>cmdb_ci_service</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 21:15:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6be03c854f2423002e7e8020a310c7d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 21:15:26</sys_updated_on>
+            <value>tbd</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_tax_category</element>
+            <name>cmdb_ci_service</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-12 21:15:26</sys_created_on>
+            <sys_id>745b9d6a4f2023002e7e8020a310c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_175353_contracts_tax_category</sys_name>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_choice_cmdb_ci_service_x_175353_contracts_tax_category</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-12 21:15:26</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

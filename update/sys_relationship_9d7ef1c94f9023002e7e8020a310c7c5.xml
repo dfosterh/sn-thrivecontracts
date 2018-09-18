@@ -29,7 +29,7 @@
         <filter/>
         <list_id display_value="Windows Server - Default view" name="cmdb_ci_win_server" related_list="NULL" sys_domain="global" view="Default view">9cce75074f9023002e7e8020a310c786</list_id>
         <order_by/>
-        <position>12</position>
+        <position>14</position>
         <related_list>REL:9d7ef1c94f9023002e7e8020a310c7c5</related_list>
         <sys_class_name>sys_ui_related_list_relationship_entry</sys_class_name>
         <sys_created_by>admin</sys_created_by>
