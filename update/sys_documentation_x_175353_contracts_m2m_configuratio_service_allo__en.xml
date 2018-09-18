@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="CI Service Allocations" language="en" table="x_175353_contracts_m2m_configuratio_service_allo">
+    <sys_documentation element="" label="_REPLACEDCI Service Allocations" language="en" table="x_175353_contracts_m2m_configuratio_service_allo">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>CI Service Allocations</label>
+            <label>_REPLACEDCI Service Allocations</label>
             <language>en</language>
             <name>x_175353_contracts_m2m_configuratio_service_allo</name>
-            <plural>CI Service Allocations</plural>
+            <plural>_REPLACEDCI Service Allocations</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-09-17 19:27:58</sys_created_on>
             <sys_id>b058ca2e4fa023002e7e8020a310c72d</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>CI Service Allocations</sys_name>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>_REPLACEDCI Service Allocations</sys_name>
             <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
             <sys_policy/>
             <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
             <sys_update_name>sys_documentation_x_175353_contracts_m2m_configuratio_service_allo__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-17 19:32:42</sys_updated_on>
+            <sys_updated_on>2018-09-18 19:41:12</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Service Allocation History" max_length="40" name="x_175353_contracts_entitlement_history" type="collection">
+    <element label="Entitlement History" max_length="40" name="x_175353_contracts_entitlement_history" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Business Service" mandatory="true" max_length="32" name="business_service" read_only="true" reference="cmdb_ci_service" reference_cascade_rule="none" type="reference"/>
         <element label="Business Service ID" mandatory="true" max_length="32" name="business_service_id" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Company" mandatory="true" max_length="32" name="company" read_only="true" reference="core_company" reference_cascade_rule="none" type="reference"/>
         <element label="Company ID" mandatory="true" max_length="32" name="company_sys_id" read_only="true" type="string"/>
         <element default="javascript: new GlideDateTime().getDisplayValue()" label="created SPOOF" mandatory="true" max_length="40" name="created_spoof" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Date Provisioned" mandatory="true" max_length="40" name="date_provisioned" read_only="true" type="glide_date"/>
+        <element label="Entitlement" mandatory="true" max_length="32" name="entitlement" reference="service_entitlement" reference_cascade_rule="none" type="reference"/>
         <element label="Event" mandatory="true" max_length="32" name="event" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Event Date" mandatory="true" max_length="40" name="event_date" read_only="true" type="glide_date_time"/>
         <element label="Granted To" mandatory="true" max_length="32" name="granted_to" read_only="true" type="string"/>
@@ -20,6 +21,9 @@
         </index>
         <index name="index3">
             <element name="company"/>
+        </index>
+        <index name="index4">
+            <element name="entitlement"/>
         </index>
     </element>
 </database>
