@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Entitlement History" max_length="40" name="x_175353_contracts_entitlement_history" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Business Service" mandatory="true" max_length="32" name="business_service" read_only="true" reference="cmdb_ci_service" reference_cascade_rule="none" type="reference"/>
-        <element label="Business Service ID" mandatory="true" max_length="32" name="business_service_id" read_only="true" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Company" mandatory="true" max_length="32" name="company" read_only="true" reference="core_company" reference_cascade_rule="none" type="reference"/>
-        <element label="Company ID" mandatory="true" max_length="32" name="company_sys_id" read_only="true" type="string"/>
-        <element default="javascript: new GlideDateTime().getDisplayValue()" label="created SPOOF" mandatory="true" max_length="40" name="created_spoof" type="glide_date_time"/>
+        <element label="Business Service Name" max_length="40" name="business_service_name" read_only="true" type="string"/>
+        <element label="Business Service ID" max_length="32" name="business_service_sys_id" read_only="true" type="string"/>
+        <element label="CI Entitlement" max_length="32" name="ci_entitlement" reference="x_175353_contracts_m2m_configuratio_entitlements" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Company" max_length="32" name="company" read_only="true" reference="core_company" reference_cascade_rule="none" type="reference"/>
+        <element label="Company ID" max_length="32" name="company_sys_id" read_only="true" type="string"/>
+        <element label="Contracted price" max_length="20" name="contracted_price" read_only="true" type="currency"/>
+        <element label="Contract Quantity" max_length="40" name="contract_quantity" read_only="true" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Date Provisioned" mandatory="true" max_length="40" name="date_provisioned" read_only="true" type="glide_date"/>
-        <element label="Entitlement" mandatory="true" max_length="32" name="entitlement" reference="service_entitlement" reference_cascade_rule="none" type="reference"/>
+        <element label="Entitlement" mandatory="true" max_length="32" name="entitlement" read_only="true" reference="service_entitlement" reference_cascade_rule="none" type="reference"/>
+        <element label="Entitlement Description" max_length="1000" name="entitlement_description" read_only="true" type="string"/>
+        <element label="Entitlement ID" max_length="32" name="entitlement_sys_id" read_only="true" type="string"/>
         <element label="Event" mandatory="true" max_length="32" name="event" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Event Date" mandatory="true" max_length="40" name="event_date" read_only="true" type="glide_date_time"/>
-        <element label="Granted To" mandatory="true" max_length="32" name="granted_to" read_only="true" type="string"/>
+        <element label="Type" mandatory="true" max_length="32" name="granted_to" read_only="true" type="string"/>
+        <element display="true" label="Granted To" max_length="255" name="granted_to_name" read_only="true" type="string"/>
         <element label="Granted To ID" mandatory="true" max_length="32" name="granted_to_sys_id" read_only="true" type="string"/>
         <element label="M2M ID" mandatory="true" max_length="32" name="m2m_sys_id" read_only="true" type="string"/>
         <element label="Service Allocation" max_length="32" name="service_allocation" read_only="true" reference="x_175353_contracts_entitlement" reference_cascade_rule="none" type="reference"/>
         <index name="index">
-            <element name="business_service"/>
+            <element name="ci_entitlement"/>
         </index>
         <index name="index2">
-            <element name="service_allocation"/>
+            <element name="business_service"/>
         </index>
         <index name="index3">
-            <element name="company"/>
+            <element name="service_allocation"/>
         </index>
         <index name="index4">
+            <element name="company"/>
+        </index>
+        <index name="index5">
             <element name="entitlement"/>
         </index>
     </element>

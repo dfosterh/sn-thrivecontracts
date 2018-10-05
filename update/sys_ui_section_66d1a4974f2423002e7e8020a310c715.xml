@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Relations and Keys" section_id="66d1a4974f2423002e7e8020a310c715" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="x_175353_contracts_entitlement_history" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ci_entitlement</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-04 19:32:45</sys_created_on>
+            <sys_id>607ca5004f0523002e7e8020a310c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Relations and Keys" display_value="Relations and Keys" name="x_175353_contracts_entitlement_history" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">66d1a4974f2423002e7e8020a310c715</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-04 19:32:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entitlement</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-04 19:32:45</sys_created_on>
+            <sys_id>e87ca5004f0523002e7e8020a310c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Relations and Keys" display_value="Relations and Keys" name="x_175353_contracts_entitlement_history" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">66d1a4974f2423002e7e8020a310c715</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-04 19:32:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>business_service</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-04 19:32:45</sys_created_on>
+            <sys_id>6c7ca5004f0523002e7e8020a310c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Relations and Keys" display_value="Relations and Keys" name="x_175353_contracts_entitlement_history" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">66d1a4974f2423002e7e8020a310c715</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-04 19:32:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>granted_to_sys_id</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-04 19:32:45</sys_created_on>
+            <sys_id>ec7ca5004f0523002e7e8020a310c7ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Relations and Keys" display_value="Relations and Keys" name="x_175353_contracts_entitlement_history" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">66d1a4974f2423002e7e8020a310c715</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-04 19:32:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company_sys_id</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-04 19:32:45</sys_created_on>
+            <sys_id>607ca5004f0523002e7e8020a310c7ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Relations and Keys" display_value="Relations and Keys" name="x_175353_contracts_entitlement_history" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">66d1a4974f2423002e7e8020a310c715</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-04 19:32:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-04 19:32:45</sys_created_on>
+            <sys_id>e07ca5004f0523002e7e8020a310c7ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Relations and Keys" display_value="Relations and Keys" name="x_175353_contracts_entitlement_history" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">66d1a4974f2423002e7e8020a310c715</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-04 19:32:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Relations and Keys</caption>
+            <header>false</header>
+            <name>x_175353_contracts_entitlement_history</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-19 19:55:43</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>66d1a4974f2423002e7e8020a310c715</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Relations and Keys</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_ui_section_66d1a4974f2423002e7e8020a310c715</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-19 19:55:43</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

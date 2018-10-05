@@ -2,31 +2,31 @@
     <sys_ui_related sys_domain="global" table="x_175353_contracts_entitlement" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="_REPLACEDService Allocations - Default view" name="x_175353_contracts_entitlement" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">e59cca224fe023002e7e8020a310c787</list_id>
+            <list_id display_value="_REPLACEDService Allocations - Default view" name="x_175353_contracts_entitlement" related_list="NULL" sys_domain="global" view="Default view">4367eae64f2423002e7e8020a310c7bd</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_175353_contracts_m2m_configuratio_service_allo.service_allocation</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-17 19:46:35</sys_created_on>
-            <sys_id>a59c8e224fe023002e7e8020a310c7b0</sys_id>
+            <sys_created_on>2018-09-17 21:43:51</sys_created_on>
+            <sys_id>4b67eae64f2423002e7e8020a310c7bd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-17 19:46:35</sys_updated_on>
+            <sys_updated_on>2018-09-17 21:43:51</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="_REPLACEDService Allocations - Default view" name="x_175353_contracts_entitlement" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">e59cca224fe023002e7e8020a310c787</list_id>
+            <list_id display_value="_REPLACEDService Allocations - Default view" name="x_175353_contracts_entitlement" related_list="NULL" sys_domain="global" view="Default view">4367eae64f2423002e7e8020a310c7bd</list_id>
             <order_by/>
             <position>1</position>
             <related_list>x_175353_contracts_entitlement_history.service_allocation</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-17 19:46:35</sys_created_on>
-            <sys_id>a99c8e224fe023002e7e8020a310c7b0</sys_id>
+            <sys_created_on>2018-09-17 21:43:51</sys_created_on>
+            <sys_id>4f67eae64f2423002e7e8020a310c7bd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-17 19:46:35</sys_updated_on>
+            <sys_updated_on>2018-09-17 21:43:51</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>_REPLACEDService Allocations - Default view</calculated_name>

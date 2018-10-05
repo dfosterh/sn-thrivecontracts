@@ -8,7 +8,37 @@
         <name>ContractUtil</name>
         <script><![CDATA[var ContractUtil = Class.create();
 
-ContractUtil.logEntitlementHistory = function(m2mRecord, grantedTo) {
+ContractUtil.logEntitlementHistory = function(entitlement) {
+	try {
+		var h = new GlideRecord('x_175353_contracts_entitlement_history');
+		h.initialize();
+
+		h.event = 'Entitlement ' + entitlement.operation();
+		h.event_date = new GlideDateTime();
+
+		//need this to relate list on form
+		h.entitlement = entitlement.sys_id;
+		h.entitlement_sys_id = entitlement.sys_id;
+		h.entitlement_description = entitlement.x_175353_contracts_description;
+		
+		h.business_service = entitlement.x_175353_contracts_business_service;
+		h.business_service_sys_id = entitlement.x_175353_contracts_business_service;
+		h.business_service_name = entitlement.x_175353_contracts_business_service.name;
+		
+		h.contracted_price = entitlement.x_175353_contracts_contracted_price;
+		h.contract_quantity = entitlement.x_175353_contracts_contract_quantity;
+		
+		h.company = entitlement.contract.account;
+		h.company_sys_id = entitlement.contract.account;
+
+		h.insert();
+	}
+	catch(ex) {
+		gs.addErrorMessage(ex.message);
+	}
+};
+	
+ContractUtil.logEntitlementAssignmentHistory = function(m2mRecord, grantedTo) {
 	try {
 		var h = new GlideRecord('x_175353_contracts_entitlement_history');
 		h.initialize();
@@ -16,18 +46,31 @@ ContractUtil.logEntitlementHistory = function(m2mRecord, grantedTo) {
 		h.event = m2mRecord.operation();
 		h.event_date = new GlideDateTime();
 		h.m2m_sys_id = m2mRecord.sys_id;
-//remove this column from history
+//remove this column from history, and remove whole legacy function logServiceAllocationHistory
 //		h.service_allocation = m2mRecord.service_allocation;
+		
+		//need this to relate list on form
 		h.entitlement = m2mRecord.entitlement;
-		h.business_service = m2mRecord.entitlement.business_service;
-		h.business_service_id = m2mRecord.entitlement.business_service;
+		h.entitlement_sys_id = m2mRecord.entitlement.sys_id;
+		h.entitlement_description = m2mRecord.entitlement.x_175353_contracts_description;
+		
+		//I think I'd rather just have the SKU string? Why have the relationship?
+		h.business_service = m2mRecord.entitlement.x_175353_contracts_business_service;
+		h.business_service_sys_id = m2mRecord.entitlement.x_175353_contracts_business_service;
+		h.business_service_name = m2mRecord.entitlement.x_175353_contracts_business_service.name;
+		
 		h.date_provisioned = m2mRecord.date_provisioned;
+		h.contracted_price = m2mRecord.entitlement.x_175353_contracts_contracted_price;
+		h.contract_quantity = m2mRecord.entitlement.x_175353_contracts_contract_quantity;
+		
+		h.company = m2mRecord.entitlement.contract.account;
+		h.company_sys_id = m2mRecord.entitlement.contract.account;
 
 		h.granted_to = grantedTo;
 		if (grantedTo == 'CI') {
+			h.ci_entitlement = m2mRecord.sys_id;
 			h.granted_to_sys_id = m2mRecord.configuration_item;
-			h.company = m2mRecord.configuration_item.company;
-			h.company_sys_id = m2mRecord.configuration_item.company;
+			h.granted_to_name = m2mRecord.configuration_item.name;
 		}
 
 		h.insert();
@@ -40,6 +83,7 @@ ContractUtil.logEntitlementHistory = function(m2mRecord, grantedTo) {
 
 ContractUtil.logServiceAllocationHistory = function(m2mRecord, grantedTo) {
 	try {
+//REPLACED
 		var h = new GlideRecord('x_175353_contracts_entitlement_history');
 		h.initialize();
 
@@ -71,13 +115,13 @@ ContractUtil.type = 'ContractUtil';
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-29 22:42:47</sys_created_on>
         <sys_id>bf1cb0a04f1423002e7e8020a310c779</sys_id>
-        <sys_mod_count>75</sys_mod_count>
+        <sys_mod_count>87</sys_mod_count>
         <sys_name>ContractUtil</sys_name>
         <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
         <sys_update_name>sys_script_include_bf1cb0a04f1423002e7e8020a310c779</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-18 21:02:43</sys_updated_on>
+        <sys_updated_on>2018-10-03 22:20:50</sys_updated_on>
     </sys_script_include>
 </record_update>

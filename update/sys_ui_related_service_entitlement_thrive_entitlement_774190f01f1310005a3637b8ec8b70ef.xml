@@ -1,33 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_related sys_domain="774190f01f1310005a3637b8ec8b70ef" table="service_entitlement" version="2" view="Thrive_Entitlement">
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Entitlement - Thrive Entitlement" name="service_entitlement" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">92b4637e4fe023002e7e8020a310c742</list_id>
-            <order_by/>
-            <position>0</position>
-            <related_list>x_175353_contracts_m2m_configuratio_entitlements.entitlement</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 20:50:09</sys_created_on>
-            <sys_id>16b4637e4fe023002e7e8020a310c743</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 20:50:09</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Entitlement - Thrive Entitlement" name="service_entitlement" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">92b4637e4fe023002e7e8020a310c742</list_id>
-            <order_by/>
-            <position>1</position>
-            <related_list>x_175353_contracts_entitlement_history.entitlement</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 20:50:09</sys_created_on>
-            <sys_id>12b4637e4fe023002e7e8020a310c744</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 20:50:09</sys_updated_on>
-        </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Entitlement - Thrive Entitlement</calculated_name>
             <filter/>

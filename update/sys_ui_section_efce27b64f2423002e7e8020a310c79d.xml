@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="efce27b64f2423002e7e8020a310c79d" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="x_175353_contracts_m2m_configuratio_entitlements" version="3" view="Thrive_Entitlement">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>configuration_item</element>
+            <element>date_provisioned</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 21:34:12</sys_created_on>
-            <sys_id>73ce27b64f2423002e7e8020a310c79f</sys_id>
+            <sys_created_on>2018-10-03 20:46:37</sys_created_on>
+            <sys_id>05c3f87f4f3423002e7e8020a310c7ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_m2m_configuratio_entitlements" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">efce27b64f2423002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:34:12</sys_updated_on>
+            <sys_updated_on>2018-10-03 20:46:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,29 +18,15 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 21:34:12</sys_created_on>
-            <sys_id>f3ce27b64f2423002e7e8020a310c79f</sys_id>
+            <sys_created_on>2018-10-03 20:46:37</sys_created_on>
+            <sys_id>85c3f87f4f3423002e7e8020a310c7ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_m2m_configuratio_entitlements" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">efce27b64f2423002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:34:12</sys_updated_on>
+            <sys_updated_on>2018-10-03 20:46:37</sys_updated_on>
             <sys_user/>
             <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>date_provisioned</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 21:34:12</sys_created_on>
-            <sys_id>ffce67b64f2423002e7e8020a310c7b0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_m2m_configuratio_entitlements" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">efce27b64f2423002e7e8020a310c79d</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:34:12</sys_updated_on>
-            <sys_user/>
-            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
