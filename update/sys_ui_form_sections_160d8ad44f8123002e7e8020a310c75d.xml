@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="160d8ad44f8123002e7e8020a310c75d" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="ast_service" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-05 16:33:37</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>e20d8ad44f8123002e7e8020a310c76a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="ast_service" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">160d8ad44f8123002e7e8020a310c75d</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">ea0d8ad44f8123002e7e8020a310c767</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-05 16:33:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-05 16:33:37</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>2a0d8ad44f8123002e7e8020a310c76e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="ast_service" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">160d8ad44f8123002e7e8020a310c75d</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">220d8ad44f8123002e7e8020a310c76c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-05 16:33:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-05 16:33:37</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>ae0d8ad44f8123002e7e8020a310c763</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="ast_service" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">160d8ad44f8123002e7e8020a310c75d</sys_ui_form>
+            <sys_ui_section caption="Renewal/Extension" display_value="Renewal/Extension" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">d60d8ad44f8123002e7e8020a310c760</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-05 16:33:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-05 16:33:37</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>a60d8ad44f8123002e7e8020a310c767</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="ast_service" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">160d8ad44f8123002e7e8020a310c75d</sys_ui_form>
+            <sys_ui_section caption="Financial" display_value="Financial" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">ee0d8ad44f8123002e7e8020a310c764</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-05 16:33:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-05 16:33:37</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>ea0d8ad44f8123002e7e8020a310c76b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="ast_service" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">160d8ad44f8123002e7e8020a310c75d</sys_ui_form>
+            <sys_ui_section caption="Terms and Conditions" display_value="Terms and Conditions" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">2a0d8ad44f8123002e7e8020a310c76a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-05 16:33:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>ast_service</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-05 16:33:37</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>160d8ad44f8123002e7e8020a310c75d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ast_service</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_ui_form_sections_160d8ad44f8123002e7e8020a310c75d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-05 16:33:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

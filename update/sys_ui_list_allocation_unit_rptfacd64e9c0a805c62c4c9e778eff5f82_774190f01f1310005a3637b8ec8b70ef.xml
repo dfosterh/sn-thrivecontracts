@@ -3,62 +3,62 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>cmdb_ci</element>
-            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">044ecea10a0a0b8618074c9684e95c3e</list_id>
+            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="b9c62baa4fe423002e7e8020a310c73b">79c62baa4fe423002e7e8020a310c73c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>john.roberts</sys_created_by>
-            <sys_created_on>2010-04-16 01:49:53</sys_created_on>
-            <sys_id>044eceaf0a0a0b8678f75419706fdfd4</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 02:20:39</sys_created_on>
+            <sys_id>31c62baa4fe423002e7e8020a310c73d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>john.roberts</sys_updated_by>
-            <sys_updated_on>2010-04-16 01:49:53</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 02:20:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>total_units</element>
-            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">044ecea10a0a0b8618074c9684e95c3e</list_id>
+            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="b9c62baa4fe423002e7e8020a310c73b">79c62baa4fe423002e7e8020a310c73c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>john.roberts</sys_created_by>
-            <sys_created_on>2010-04-16 01:49:53</sys_created_on>
-            <sys_id>044eceb10a0a0b8637f1f47a98c284b5</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 02:20:39</sys_created_on>
+            <sys_id>b1c62baa4fe423002e7e8020a310c73d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>john.roberts</sys_updated_by>
-            <sys_updated_on>2010-04-16 01:49:53</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 02:20:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>allocated_units</element>
-            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">044ecea10a0a0b8618074c9684e95c3e</list_id>
+            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="b9c62baa4fe423002e7e8020a310c73b">79c62baa4fe423002e7e8020a310c73c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>john.roberts</sys_created_by>
-            <sys_created_on>2010-04-16 01:49:53</sys_created_on>
-            <sys_id>044eceb20a0a0b862fc9a0a9be2b2277</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 02:20:39</sys_created_on>
+            <sys_id>35c62baa4fe423002e7e8020a310c73d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>john.roberts</sys_updated_by>
-            <sys_updated_on>2010-04-16 01:49:53</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 02:20:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>available_units</element>
-            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">044ecea10a0a0b8618074c9684e95c3e</list_id>
+            <list_id display_value="allocation_unit" element="NULL" name="allocation_unit" parent="NULL" relationship="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="b9c62baa4fe423002e7e8020a310c73b">79c62baa4fe423002e7e8020a310c73c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>john.roberts</sys_created_by>
-            <sys_created_on>2010-04-16 01:49:53</sys_created_on>
-            <sys_id>044eceb30a0a0b86240b11de7e85d41b</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 02:20:39</sys_created_on>
+            <sys_id>b5c62baa4fe423002e7e8020a310c73d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>john.roberts</sys_updated_by>
-            <sys_updated_on>2010-04-16 01:49:53</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 02:20:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
