@@ -29,18 +29,25 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	try {
-		var count = new GlideAggregate('x_175353_contracts_m2m_configuratio_entitlements');
-		count.addQuery('entitlement', current.sys_id);
-		count.addAggregate('COUNT');
-		count.setGroup(false);
-		count.query();
+		var ent = new GlideAggregate('x_175353_contracts_m2m_configuratio_entitlements');
+		ent.addQuery('entitlement', current.sys_id);
+		ent.addAggregate('SUM', 'provisioned_quantity');
+		ent.setGroup(false);
+		ent.query();
 		var amount = 0;
-		if (count.next()) {
-			amount = count.getAggregate('COUNT');
+		if (ent.next()) {
+			amount = ent.getAggregate('SUM', 'provisioned_quantity');
 		}
 		if (current.x_175353_contracts_provisioned_qty != amount){
 			current.x_175353_contracts_provisioned_qty = amount;
-//redundant since this is "before" trigger			current.update();
+		}
+
+		//trigger contract update trigger to run too - should probably be saparate
+		var e = new GlideRecord('ast_service');
+		e.get(current.contract.sys_id);
+		if (e.next) {
+			e.x_175353_contracts_provisioned_value = -1; //must be a change to register as an update (e.g., 0 does not update 0)
+			e.update();
 		}
 	}
 	catch(ex) {
@@ -53,7 +60,7 @@
         <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
         <sys_domain_path>!!!/</sys_domain_path>
         <sys_id>66fdc3fa4fa023002e7e8020a310c7d7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>uEntitlementCountProvisioned</sys_name>
         <sys_overrides/>
         <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
@@ -61,7 +68,7 @@
         <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
         <sys_update_name>sys_script_66fdc3fa4fa023002e7e8020a310c7d7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-03 22:09:48</sys_updated_on>
+        <sys_updated_on>2018-10-17 14:19:13</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

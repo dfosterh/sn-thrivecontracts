@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Entitlement" max_length="40" name="service_entitlement" type="collection">
+    <element label="Entitlement" max_length="40" name="service_entitlement" sizeclass="9483" type="collection">
         <element label="Bill Contracted Qty" max_length="40" name="x_175353_contracts_bill_contracted_qty" type="boolean"/>
         <element display="true" label="Business Service" max_length="32" name="x_175353_contracts_business_service" reference="cmdb_ci_service" type="reference"/>
         <element default="true" label="Can Exceed Contracted Qty" max_length="40" name="x_175353_contracts_can_exceed_contracted_qty" type="boolean"/>

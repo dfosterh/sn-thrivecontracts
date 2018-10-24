@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="efce27b64f2423002e7e8020a310c79d" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="x_175353_contracts_m2m_configuratio_entitlements" version="3" view="Thrive_Entitlement">
+    <sys_ui_section caption="" section_id="efce27b64f2423002e7e8020a310c79d" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="x_175353_contracts_m2m_configuratio_entitlements" version="3" view="Thrive_Contract">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>date_provisioned</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-03 20:46:37</sys_created_on>
-            <sys_id>05c3f87f4f3423002e7e8020a310c7ca</sys_id>
+            <sys_created_on>2018-10-17 13:48:19</sys_created_on>
+            <sys_id>7d4a1b884f1123002e7e8020a310c77c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_m2m_configuratio_entitlements" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">efce27b64f2423002e7e8020a310c79d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_m2m_configuratio_entitlements" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">efce27b64f2423002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:46:37</sys_updated_on>
+            <sys_updated_on>2018-10-17 13:48:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,15 +18,29 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-03 20:46:37</sys_created_on>
-            <sys_id>85c3f87f4f3423002e7e8020a310c7ca</sys_id>
+            <sys_created_on>2018-10-17 13:48:19</sys_created_on>
+            <sys_id>354a5b884f1123002e7e8020a310c71f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_m2m_configuratio_entitlements" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">efce27b64f2423002e7e8020a310c79d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_m2m_configuratio_entitlements" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">efce27b64f2423002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-03 20:46:37</sys_updated_on>
+            <sys_updated_on>2018-10-17 13:48:19</sys_updated_on>
             <sys_user/>
             <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>provisioned_quantity</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 13:48:19</sys_created_on>
+            <sys_id>b54a5b884f1123002e7e8020a310c71f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_175353_contracts_m2m_configuratio_entitlements" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">efce27b64f2423002e7e8020a310c79d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 13:48:19</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
@@ -39,7 +53,7 @@
             <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
             <sys_domain_path>!!!/</sys_domain_path>
             <sys_id>efce27b64f2423002e7e8020a310c79d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>x_175353_contracts_m2m_configuratio_entitlements</sys_name>
             <sys_overrides/>
             <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
@@ -47,10 +61,10 @@
             <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
             <sys_update_name>sys_ui_section_efce27b64f2423002e7e8020a310c79d</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:34:12</sys_updated_on>
+            <sys_updated_on>2018-10-14 23:30:19</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Thrive Entitlement" name="Thrive_Entitlement">e59547364fa023002e7e8020a310c799</view>
+            <view display_value="Thrive Contract" name="Thrive_Contract">ace00ffe4f6023002e7e8020a310c791</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="ast_contract" label="Service Contract" max_length="40" name="ast_service" type="collection">
+        <element label="Billing Starts" max_length="40" name="x_175353_contracts_billing_starts" type="glide_date"/>
         <element label="Contract Value" max_length="20" name="x_175353_contracts_contract_value" read_only="true" type="currency"/>
         <element label="Provisioned Value" max_length="20" name="x_175353_contracts_provisioned_value" read_only="true" type="currency"/>
     </element>

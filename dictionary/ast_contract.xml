@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Contract" max_length="40" name="ast_contract" type="collection">
-        <element label="Service Location" max_length="32" name="x_175353_contracts_service_location" reference="cmn_location" type="reference" use_dependent_field="true"/>
+        <element label="Service Location" max_length="32" name="x_175353_contracts_service_location" reference="cmn_location" reference_qual="javascript:&quot;accountISNOTEMPTY^account=&quot;+current.account;" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
     </element>
 </database>

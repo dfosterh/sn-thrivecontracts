@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="CW Agreement Details to Entitlements">bcddd2624fc123002e7e8020a310c769</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+	//so far, the only way I've found to debug is using gs.log, which must be in the global app scope. gs.debug and gs.addInfoMessage don't write to screen from here
+	var sc = new GlideRecord('ast_service');
+//gs.log('THRIVE TRANS' + source.u_contract.toString());
+	sc.addQuery('account.name', source.u_account.toString());
+	sc.addQuery('short_description', source.u_contract.toString());
+	sc.query();
+	if(sc.next()) {
+//gs.log('THRIVE TRANS' + sc.account);
+		return sc.sys_id; // return the value to be put into the target field
+	}
+})(source);]]></source_script>
+        <source_table>x_175353_contracts_import_cw_agreement_details</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 17:34:10</sys_created_on>
+        <sys_id>650e96624fc123002e7e8020a310c70a</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+        <sys_update_name>sys_transform_entry_650e96624fc123002e7e8020a310c70a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-14 22:48:48</sys_updated_on>
+        <target_field>contract</target_field>
+        <target_table>service_entitlement</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>

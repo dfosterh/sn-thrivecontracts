@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Additional vCPU">3da102ef4fc123002e7e8020a310c7cb</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-15 18:05:22</sys_created_on>
+        <sys_id>8cf1c2ef4fc123002e7e8020a310c742</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional vCPU.SNC External</sys_name>
+        <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_8cf1c2ef4fc123002e7e8020a310c742</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-15 18:05:22</sys_updated_on>
+        <user_criteria display_value="SNC External">fe311a314ff113002e7e8020a310c7e4</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+</record_update>

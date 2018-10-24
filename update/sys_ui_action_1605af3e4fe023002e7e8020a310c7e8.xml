@@ -39,6 +39,9 @@ This was in global button condition. Not required here as this is for a specific
 	if(parent && parent.getTableName() == 'service_entitlement') {
 		uri.set('sysparm_query', 'company=' + parent.contract.account);
 	}
+	if(parent && parent.getTableName() == 'cmdb_ci_server') {
+		uri.set('sysparm_query', 'contract.account=' + parent.company);
+	}
 	//this could be the list control from CI, but it does not work. parent is null, and link reference does not work the same at all
 //	else {
 //		uri.set('sysparm_query', 'company=' + current.company);
@@ -63,7 +66,7 @@ catch(ex) {
         <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
         <sys_domain_path>!!!/</sys_domain_path>
         <sys_id>1605af3e4fe023002e7e8020a310c7e8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Provision</sys_name>
         <sys_overrides/>
         <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
@@ -71,7 +74,7 @@ catch(ex) {
         <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
         <sys_update_name>sys_ui_action_1605af3e4fe023002e7e8020a310c7e8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-20 16:38:23</sys_updated_on>
+        <sys_updated_on>2018-10-15 18:34:13</sys_updated_on>
         <table>x_175353_contracts_m2m_configuratio_entitlements</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

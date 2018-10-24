@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_x_175353_con_ntracted_price" label="x_175353_contracts_contracted_price" language="en" table="x_175353_contracts_import_cw_agreement_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_x_175353_con_ntracted_price</element>
+            <help/>
+            <hint/>
+            <label>x_175353_contracts_contracted_price</label>
+            <language>en</language>
+            <name>x_175353_contracts_import_cw_agreement_details</name>
+            <plural>x_175353_contracts_contracted_prices</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-12 17:31:35</sys_created_on>
+            <sys_id>736d9a224fc123002e7e8020a310c76c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_175353_contracts_contracted_price</sys_name>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_documentation_x_175353_contracts_import_cw_agreement_details_u_x_175353_con_ntracted_price_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-12 17:31:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
     <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="AXSNEPOS">119732664f6423002e7e8020a310c741</sc_cat_item>
+        <sc_cat_item display_value="Super business friendly name">119732664f6423002e7e8020a310c741</sc_cat_item>
         <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-17 22:56:59</sys_created_on>

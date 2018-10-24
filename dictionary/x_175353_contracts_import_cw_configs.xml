@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="CW Configs" max_length="40" name="x_175353_contracts_import_cw_configs" sizeclass="16925" type="collection">
+        <element attributes="import_attribute_name=sys_domain,edge_encryption_enabled=true" label="Sys domain" max_length="40" name="sys_domain" type="string"/>
+        <element label="Domain Path" max_length="255" name="sys_domain_path" type="domain_path"/>
+        <element attributes="import_attribute_name=company,edge_encryption_enabled=true" label="company" max_length="50" name="u_company" type="string"/>
+        <element attributes="import_attribute_name=install_date,edge_encryption_enabled=true" label="install_date" max_length="40" name="u_install_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ï»¿Config_RecID" max_length="40" name="u_ï__config_recid" type="string"/>
+        <element attributes="import_attribute_name=name,edge_encryption_enabled=true" label="name" max_length="72" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=short_description,edge_encryption_enabled=true" label="short_description" max_length="40" name="u_short_description" type="string"/>
+        <element attributes="import_attribute_name=sys_domain_path,edge_encryption_enabled=true" label="sys_domain_path" max_length="40" name="u_sys_domain_path" type="string"/>
+        <index name="index">
+            <element name="sys_domain_path"/>
+        </index>
+    </element>
+</database>

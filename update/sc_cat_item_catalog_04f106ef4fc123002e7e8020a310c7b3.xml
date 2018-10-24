@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Additional vCPU">3da102ef4fc123002e7e8020a310c7cb</sc_cat_item>
+        <sc_catalog display_value="Consumer Service">0f910a2ac3112200b12d9f2974d3ae3c</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-15 18:05:23</sys_created_on>
+        <sys_id>04f106ef4fc123002e7e8020a310c7b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Consumer Service.Additional vCPU</sys_name>
+        <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_04f106ef4fc123002e7e8020a310c7b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-15 18:05:23</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

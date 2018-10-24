@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="fcdb456b4f0123002e7e8020a310c730" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="cmdb_ci_pc_hardware" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-15 14:08:58</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>34db01ab4f0123002e7e8020a310c756</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_pc_hardware" name="cmdb_ci_pc_hardware" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">fcdb456b4f0123002e7e8020a310c730</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_pc_hardware" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">30db01ab4f0123002e7e8020a310c754</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-15 14:08:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-15 14:08:58</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>74db01ab4f0123002e7e8020a310c75a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_pc_hardware" name="cmdb_ci_pc_hardware" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">fcdb456b4f0123002e7e8020a310c730</sys_ui_form>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_pc_hardware" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">74db01ab4f0123002e7e8020a310c757</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-15 14:08:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>cmdb_ci_pc_hardware</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-15 14:08:58</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>fcdb456b4f0123002e7e8020a310c730</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_pc_hardware</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fcdb456b4f0123002e7e8020a310c730</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-15 14:08:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2018-10-16 15:58:23</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>jerickson</sys_created_by>
+        <sys_created_on>2018-10-16 15:58:20</sys_created_on>
+        <sys_id>f07eaafb4f8163002e7e8020a310c74c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>c894e536cd10b3d88bd72466642ed550fdc3237f61977c7a21b469e562d64697</sys_name>
+        <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</sys_push_application_id>
+        <sys_push_platform_id display_value="Apple">20e71f30ff0002009738ffffffffff6b</sys_push_platform_id>
+        <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_f07eaafb4f8163002e7e8020a310c74c</sys_update_name>
+        <sys_updated_by>jerickson</sys_updated_by>
+        <sys_updated_on>2018-10-16 15:58:23</sys_updated_on>
+        <sys_user_id display_value="Jackie Erickson">61c5a9524fc123002e7e8020a310c7e4</sys_user_id>
+        <token>c894e536cd10b3d88bd72466642ed550fdc3237f61977c7a21b469e562d64697</token>
+    </sys_push_notif_app_install>
+</record_update>

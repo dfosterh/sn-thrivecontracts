@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="659547364fa023002e7e8020a310c79d" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="service_entitlement" version="3" view="Thrive_Entitlement">
+    <sys_ui_section caption="" section_id="659547364fa023002e7e8020a310c79d" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="" version="3" view="Thrive_Contract">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>contract</element>
             <position>0</position>
@@ -8,7 +8,7 @@
             <sys_id>196daf364f2423002e7e8020a310c739</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="service_entitlement" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">659547364fa023002e7e8020a310c79d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>196daf364f2423002e7e8020a310c752</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="service_entitlement" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">659547364fa023002e7e8020a310c79d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>996daf364f2423002e7e8020a310c752</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="service_entitlement" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">659547364fa023002e7e8020a310c79d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
             <sys_user/>
@@ -50,7 +50,7 @@
             <sys_id>1d6daf364f2423002e7e8020a310c752</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="service_entitlement" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">659547364fa023002e7e8020a310c79d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
             <sys_user/>
@@ -64,7 +64,7 @@
             <sys_id>9d6daf364f2423002e7e8020a310c752</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="service_entitlement" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">659547364fa023002e7e8020a310c79d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
             <sys_user/>
@@ -78,7 +78,7 @@
             <sys_id>116daf364f2423002e7e8020a310c753</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="service_entitlement" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">659547364fa023002e7e8020a310c79d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
             <sys_user/>
@@ -92,7 +92,7 @@
             <sys_id>916daf364f2423002e7e8020a310c753</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="service_entitlement" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">659547364fa023002e7e8020a310c79d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
             <sys_user/>
@@ -106,7 +106,7 @@
             <sys_id>156daf364f2423002e7e8020a310c753</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="service_entitlement" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">659547364fa023002e7e8020a310c79d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
             <sys_user/>
@@ -120,7 +120,7 @@
             <sys_id>956daf364f2423002e7e8020a310c753</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="service_entitlement" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">659547364fa023002e7e8020a310c79d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
             <sys_user/>
@@ -134,7 +134,7 @@
             <sys_id>196daf364f2423002e7e8020a310c753</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="service_entitlement" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">659547364fa023002e7e8020a310c79d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
             <sys_user/>
@@ -148,7 +148,7 @@
             <sys_id>996daf364f2423002e7e8020a310c753</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="service_entitlement" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">659547364fa023002e7e8020a310c79d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
             <sys_user/>
@@ -162,7 +162,7 @@
             <sys_id>1d6daf364f2423002e7e8020a310c753</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="service_entitlement" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="e59547364fa023002e7e8020a310c799">659547364fa023002e7e8020a310c79d</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
             <sys_user/>
@@ -171,7 +171,7 @@
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
-            <name>service_entitlement</name>
+            <name/>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
@@ -179,18 +179,18 @@
             <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
             <sys_domain_path>!!!/</sys_domain_path>
             <sys_id>659547364fa023002e7e8020a310c79d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>service_entitlement</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name/>
             <sys_overrides/>
             <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
             <sys_policy/>
             <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
             <sys_update_name>sys_ui_section_659547364fa023002e7e8020a310c79d</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 18:34:06</sys_updated_on>
+            <sys_updated_on>2018-10-14 23:30:08</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Thrive Entitlement" name="Thrive_Entitlement">e59547364fa023002e7e8020a310c799</view>
+            <view display_value="Thrive Contract" name="Thrive_Contract">ace00ffe4f6023002e7e8020a310c791</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>
