@@ -4,7 +4,7 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>x_175353_contracts_business_service</field>
+        <field>x_175353_contracts_service_offering</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
@@ -37,7 +37,7 @@
         <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
         <sys_domain_path>!!!/</sys_domain_path>
         <sys_id>c14fc33e4fa023002e7e8020a310c73b</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>EntitlementBusinessServiceChanged</sys_name>
         <sys_overrides/>
         <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
@@ -45,7 +45,7 @@
         <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
         <sys_update_name>sys_script_client_c14fc33e4fa023002e7e8020a310c73b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-18 21:33:18</sys_updated_on>
+        <sys_updated_on>2018-11-13 04:43:22</sys_updated_on>
         <table>service_entitlement</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

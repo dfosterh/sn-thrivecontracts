@@ -2,6 +2,22 @@
     <element extends="ast_contract" label="Service Contract" max_length="40" name="ast_service" type="collection">
         <element label="Billing Starts" max_length="40" name="x_175353_contracts_billing_starts" type="glide_date"/>
         <element label="Contract Value" max_length="20" name="x_175353_contracts_contract_value" read_only="true" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Include Prorated Deprovisions" max_length="40" name="x_175353_contracts_include_prorated_deprovisions" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="true" label="Include Prorated Provisions" max_length="40" name="x_175353_contracts_include_prorated_provisions" type="boolean"/>
+        <element default="true" label="Include Tax Fee" max_length="40" name="x_175353_contracts_include_tax_fee" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Is Master" max_length="40" name="x_175353_contracts_is_master" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="0" label="MRR Discount" max_length="20" name="x_175353_contracts_mrr_discount" type="decimal"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" default="multiplier" label="MRR Discount Type" max_length="40" name="x_175353_contracts_mrr_discount_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Multiplier" sequence="1" value="multiplier"/>
+                <element inactive_on_update="false" label="Adjustment" sequence="2" value="adjustment"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Override Master Contract" max_length="40" name="x_175353_contracts_override_defaults" type="boolean"/>
+        <element attributes=" ref_contributions=x_175353_contracts_add_project_task" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Project" max_length="32" name="x_175353_contracts_project" reference="pm_project" reference_qual="javascript:&quot;company=&quot;+current.account" type="reference" use_reference_qualifier="advanced"/>
         <element label="Provisioned Value" max_length="20" name="x_175353_contracts_provisioned_value" read_only="true" type="currency"/>
+        <index name="index">
+            <element name="x_175353_contracts_project"/>
+        </index>
     </element>
 </database>

@@ -4,27 +4,27 @@
             <element>contract</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 21:28:02</sys_created_on>
-            <sys_id>196daf364f2423002e7e8020a310c739</sys_id>
+            <sys_created_on>2018-11-13 04:31:04</sys_created_on>
+            <sys_id>12ad5c704fb563002e7e8020a310c78d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
+            <sys_updated_on>2018-11-13 04:31:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>x_175353_contracts_business_service</element>
+            <element>x_175353_contracts_service_offering</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 21:28:02</sys_created_on>
-            <sys_id>196daf364f2423002e7e8020a310c752</sys_id>
+            <sys_created_on>2018-11-13 04:31:04</sys_created_on>
+            <sys_id>92ad5c704fb563002e7e8020a310c78d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
+            <sys_updated_on>2018-11-13 04:31:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>x_175353_contracts_contract_quantity</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 21:28:02</sys_created_on>
-            <sys_id>996daf364f2423002e7e8020a310c752</sys_id>
+            <sys_created_on>2018-11-13 04:31:04</sys_created_on>
+            <sys_id>16ad5c704fb563002e7e8020a310c78d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
+            <sys_updated_on>2018-11-13 04:31:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>x_175353_contracts_bill_contracted_qty</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 21:28:02</sys_created_on>
-            <sys_id>1d6daf364f2423002e7e8020a310c752</sys_id>
+            <sys_created_on>2018-11-13 04:31:04</sys_created_on>
+            <sys_id>96ad5c704fb563002e7e8020a310c78d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
+            <sys_updated_on>2018-11-13 04:31:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>x_175353_contracts_contracted_price</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 21:28:02</sys_created_on>
-            <sys_id>9d6daf364f2423002e7e8020a310c752</sys_id>
+            <sys_created_on>2018-11-13 04:31:04</sys_created_on>
+            <sys_id>1aad5c704fb563002e7e8020a310c78d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
+            <sys_updated_on>2018-11-13 04:31:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 21:28:02</sys_created_on>
-            <sys_id>116daf364f2423002e7e8020a310c753</sys_id>
+            <sys_created_on>2018-11-13 04:31:04</sys_created_on>
+            <sys_id>9aad5c704fb563002e7e8020a310c78d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
+            <sys_updated_on>2018-11-13 04:31:04</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>start_date</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 21:28:02</sys_created_on>
-            <sys_id>916daf364f2423002e7e8020a310c753</sys_id>
+            <sys_created_on>2018-11-13 04:31:04</sys_created_on>
+            <sys_id>1ead5c704fb563002e7e8020a310c78d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
+            <sys_updated_on>2018-11-13 04:31:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>end_date</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 21:28:02</sys_created_on>
-            <sys_id>156daf364f2423002e7e8020a310c753</sys_id>
+            <sys_created_on>2018-11-13 04:31:04</sys_created_on>
+            <sys_id>9ead5c704fb563002e7e8020a310c78d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
+            <sys_updated_on>2018-11-13 04:31:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>x_175353_contracts_provisioned_qty</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 21:28:02</sys_created_on>
-            <sys_id>956daf364f2423002e7e8020a310c753</sys_id>
+            <sys_created_on>2018-11-13 04:31:04</sys_created_on>
+            <sys_id>12ad5c704fb563002e7e8020a310c78e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
+            <sys_updated_on>2018-11-13 04:31:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>x_175353_contracts_can_exceed_contracted_qty</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 21:28:02</sys_created_on>
-            <sys_id>196daf364f2423002e7e8020a310c753</sys_id>
+            <sys_created_on>2018-11-13 04:31:04</sys_created_on>
+            <sys_id>92ad5c704fb563002e7e8020a310c78e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
+            <sys_updated_on>2018-11-13 04:31:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>.end_split</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 21:28:02</sys_created_on>
-            <sys_id>996daf364f2423002e7e8020a310c753</sys_id>
+            <sys_created_on>2018-11-13 04:31:04</sys_created_on>
+            <sys_id>16ad5c704fb563002e7e8020a310c78e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
+            <sys_updated_on>2018-11-13 04:31:04</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>x_175353_contracts_description</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-18 21:28:02</sys_created_on>
-            <sys_id>1d6daf364f2423002e7e8020a310c753</sys_id>
+            <sys_created_on>2018-11-13 04:31:04</sys_created_on>
+            <sys_id>96ad5c704fb563002e7e8020a310c78e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">659547364fa023002e7e8020a310c79d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-18 21:28:02</sys_updated_on>
+            <sys_updated_on>2018-11-13 04:31:04</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

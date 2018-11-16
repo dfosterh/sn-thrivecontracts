@@ -2,101 +2,115 @@
     <sys_ui_related sys_domain="774190f01f1310005a3637b8ec8b70ef" table="ast_service" version="2" view="Thrive_Contract">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Service Contract - Thrive Contract" name="ast_service" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">311d8ae24f8123002e7e8020a310c7ae</list_id>
+            <list_id display_value="Service Contract - Thrive Contract" name="ast_service" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">38ad86894f6523002e7e8020a310c7f0</list_id>
             <order_by/>
             <position>0</position>
             <related_list>service_entitlement.contract</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:20:11</sys_created_on>
-            <sys_id>751d8ae24f8123002e7e8020a310c7af</sys_id>
+            <sys_created_on>2018-11-01 21:03:04</sys_created_on>
+            <sys_id>7cad86894f6523002e7e8020a310c7f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:20:11</sys_updated_on>
+            <sys_updated_on>2018-11-01 21:03:04</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Service Contract - Thrive Contract" name="ast_service" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">311d8ae24f8123002e7e8020a310c7ae</list_id>
+            <list_id display_value="Service Contract - Thrive Contract" name="ast_service" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">38ad86894f6523002e7e8020a310c7f0</list_id>
             <order_by/>
             <position>1</position>
+            <related_list>x_175353_contracts_payment_schedule.contract</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-01 21:03:04</sys_created_on>
+            <sys_id>f8ad86894f6523002e7e8020a310c7f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-01 21:03:04</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Service Contract - Thrive Contract" name="ast_service" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">38ad86894f6523002e7e8020a310c7f0</list_id>
+            <order_by/>
+            <position>2</position>
             <related_list>contract_rel_contract_sla.contract</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:20:11</sys_created_on>
-            <sys_id>f11d8ae24f8123002e7e8020a310c7b0</sys_id>
+            <sys_created_on>2018-11-01 21:03:04</sys_created_on>
+            <sys_id>fcad86894f6523002e7e8020a310c7f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:20:11</sys_updated_on>
+            <sys_updated_on>2018-11-01 21:03:04</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Service Contract - Thrive Contract" name="ast_service" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">311d8ae24f8123002e7e8020a310c7ae</list_id>
+            <list_id display_value="Service Contract - Thrive Contract" name="ast_service" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">38ad86894f6523002e7e8020a310c7f0</list_id>
             <order_by/>
-            <position>2</position>
+            <position>3</position>
             <related_list>contract_rel_ci.contract</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:20:11</sys_created_on>
-            <sys_id>f51d8ae24f8123002e7e8020a310c7b0</sys_id>
+            <sys_created_on>2018-11-01 21:03:04</sys_created_on>
+            <sys_id>f0ad86894f6523002e7e8020a310c7f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:20:11</sys_updated_on>
+            <sys_updated_on>2018-11-01 21:03:04</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Service Contract - Thrive Contract" name="ast_service" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">311d8ae24f8123002e7e8020a310c7ae</list_id>
+            <list_id display_value="Service Contract - Thrive Contract" name="ast_service" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">38ad86894f6523002e7e8020a310c7f0</list_id>
             <order_by/>
-            <position>3</position>
+            <position>4</position>
             <related_list>contract_rel_location.contract</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:20:11</sys_created_on>
-            <sys_id>f91d8ae24f8123002e7e8020a310c7b0</sys_id>
+            <sys_created_on>2018-11-01 21:03:04</sys_created_on>
+            <sys_id>f4ad86894f6523002e7e8020a310c7f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:20:11</sys_updated_on>
+            <sys_updated_on>2018-11-01 21:03:04</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Service Contract - Thrive Contract" name="ast_service" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">311d8ae24f8123002e7e8020a310c7ae</list_id>
+            <list_id display_value="Service Contract - Thrive Contract" name="ast_service" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">38ad86894f6523002e7e8020a310c7f0</list_id>
             <order_by/>
-            <position>4</position>
+            <position>5</position>
             <related_list>contract_rel_group.contract</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:20:11</sys_created_on>
-            <sys_id>fd1d8ae24f8123002e7e8020a310c7b0</sys_id>
+            <sys_created_on>2018-11-01 21:03:04</sys_created_on>
+            <sys_id>f8ad86894f6523002e7e8020a310c7f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:20:11</sys_updated_on>
+            <sys_updated_on>2018-11-01 21:03:04</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Service Contract - Thrive Contract" name="ast_service" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">311d8ae24f8123002e7e8020a310c7ae</list_id>
+            <list_id display_value="Service Contract - Thrive Contract" name="ast_service" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">38ad86894f6523002e7e8020a310c7f0</list_id>
             <order_by/>
-            <position>5</position>
+            <position>6</position>
             <related_list>contract_rel_user.contract</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:20:11</sys_created_on>
-            <sys_id>f11d8ae24f8123002e7e8020a310c7b1</sys_id>
+            <sys_created_on>2018-11-01 21:03:04</sys_created_on>
+            <sys_id>fcad86894f6523002e7e8020a310c7f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:20:11</sys_updated_on>
+            <sys_updated_on>2018-11-01 21:03:04</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Service Contract - Thrive Contract" name="ast_service" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">311d8ae24f8123002e7e8020a310c7ae</list_id>
+            <list_id display_value="Service Contract - Thrive Contract" name="ast_service" related_list="NULL" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">38ad86894f6523002e7e8020a310c7f0</list_id>
             <order_by/>
-            <position>6</position>
+            <position>7</position>
             <related_list>ast_contract.parent</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:20:11</sys_created_on>
-            <sys_id>f51d8ae24f8123002e7e8020a310c7b1</sys_id>
+            <sys_created_on>2018-11-01 21:03:04</sys_created_on>
+            <sys_id>f0ad86894f6523002e7e8020a310c7f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:20:11</sys_updated_on>
+            <sys_updated_on>2018-11-01 21:03:04</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Service Contract - Thrive Contract</calculated_name>
@@ -107,10 +121,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:20:10</sys_created_on>
+            <sys_created_on>2018-11-01 21:03:04</sys_created_on>
             <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
             <sys_domain_path>!!!/</sys_domain_path>
-            <sys_id>311d8ae24f8123002e7e8020a310c7ae</sys_id>
+            <sys_id>38ad86894f6523002e7e8020a310c7f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Service Contract - Thrive Contract</sys_name>
             <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
@@ -118,7 +132,7 @@
             <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
             <sys_update_name>sys_ui_related_ast_service_Thrive_Contract_774190f01f1310005a3637b8ec8b70ef</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:20:10</sys_updated_on>
+            <sys_updated_on>2018-11-01 21:03:04</sys_updated_on>
             <sys_user/>
             <view display_value="Thrive Contract" name="Thrive_Contract">ace00ffe4f6023002e7e8020a310c791</view>
             <view_name/>

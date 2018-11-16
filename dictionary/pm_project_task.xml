@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="planned_task" label="Project Task" max_length="40" name="pm_project_task" sizeclass="19" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Billing Method" max_length="40" name="x_175353_contracts_billing_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Actual" sequence="0" value="actual"/>
+                <element inactive_on_update="false" label="Fixed" sequence="1" value="fixed"/>
+                <element inactive_on_update="false" label="Not to Exceed" sequence="2" value="not to exceed"/>
+            </choice>
+        </element>
+        <element label="Bill Amount" max_length="15" name="x_175353_contracts_bill_amount" type="decimal"/>
+        <element label="Ready To Bill" max_length="40" name="x_175353_contracts_ready_to_bill" type="boolean"/>
+        <element label="Ready To Bill (from payment schedule)" max_length="40" name="x_175353_contracts_rtb" type="boolean"/>
+    </element>
+</database>

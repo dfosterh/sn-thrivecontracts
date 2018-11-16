@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_175353_contracts_mrr_discount_type" table="ast_service" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_175353_contracts_mrr_discount_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Multiplier</label>
+            <language>en</language>
+            <name>ast_service</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-05 19:47:09</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>a4922e1a4fe123002e7e8020a310c779</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-05 19:49:19</sys_updated_on>
+            <value>multiplier</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_175353_contracts_mrr_discount_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Adjustment</label>
+            <language>en</language>
+            <name>ast_service</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-05 19:47:51</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>b5a2ea1a4fe123002e7e8020a310c756</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-05 19:49:52</sys_updated_on>
+            <value>adjustment</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_mrr_discount_type</element>
+            <name>ast_service</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-05 19:47:09</sys_created_on>
+            <sys_id>63926e1a4fe123002e7e8020a310c734</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_175353_contracts_mrr_discount_type</sys_name>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_choice_ast_service_x_175353_contracts_mrr_discount_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-05 19:47:09</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

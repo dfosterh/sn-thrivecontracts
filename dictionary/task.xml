@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="reference_index_include=active,all_tables.live_feed=true,all_tables.text_index_translations=true,all_tables.detail_row=short_description,all_tables.display_color=priority,extension_model=hierarchy,hasListeners=true,largeTable=true" label="Task" max_length="40" name="task" sizeclass="7211" text_index="true" type="collection">
+        <element label="Entitlement" max_length="32" name="x_175353_contracts_entitlement" reference="service_entitlement" reference_qual="javascript:&quot;contract.accountISNOTEMPTY^contract.account=&quot;+current.company;" type="reference" use_reference_qualifier="advanced"/>
+        <index name="index">
+            <element name="x_175353_contracts_entitlement"/>
+            <element name="active"/>
+        </index>
+    </element>
+</database>

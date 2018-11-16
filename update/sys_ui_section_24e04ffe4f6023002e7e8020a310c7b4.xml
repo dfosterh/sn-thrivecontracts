@@ -4,13 +4,13 @@
             <element>account</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:54</sys_created_on>
-            <sys_id>750d4ae24f8123002e7e8020a310c7cf</sys_id>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>322f2a924f2523002e7e8020a310c7a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:54</sys_updated_on>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>location</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:54</sys_created_on>
-            <sys_id>710d4ae24f8123002e7e8020a310c7d0</sys_id>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>b22f2a924f2523002e7e8020a310c7a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:54</sys_updated_on>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>x_175353_contracts_service_location</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:54</sys_created_on>
-            <sys_id>f10d4ae24f8123002e7e8020a310c7d0</sys_id>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>362f2a924f2523002e7e8020a310c7a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:54</sys_updated_on>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>contract_model</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:54</sys_created_on>
-            <sys_id>750d4ae24f8123002e7e8020a310c7d0</sys_id>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>b62f2a924f2523002e7e8020a310c7a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:54</sys_updated_on>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>starts</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:54</sys_created_on>
-            <sys_id>f50d4ae24f8123002e7e8020a310c7d0</sys_id>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>3a2f2a924f2523002e7e8020a310c7a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:54</sys_updated_on>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>ends</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:54</sys_created_on>
-            <sys_id>790d4ae24f8123002e7e8020a310c7d0</sys_id>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>ba2f2a924f2523002e7e8020a310c7a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:54</sys_updated_on>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>x_175353_contracts_billing_starts</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:54</sys_created_on>
-            <sys_id>f90d4ae24f8123002e7e8020a310c7d0</sys_id>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>3e2f2a924f2523002e7e8020a310c7a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:54</sys_updated_on>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>.split</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:54</sys_created_on>
-            <sys_id>7d0d4ae24f8123002e7e8020a310c7d0</sys_id>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>be2f2a924f2523002e7e8020a310c7a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:54</sys_updated_on>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -116,139 +116,111 @@
             <element>number</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:55</sys_created_on>
-            <sys_id>fd0d4ae24f8123002e7e8020a310c7d0</sys_id>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>322f2a924f2523002e7e8020a310c7a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:55</sys_updated_on>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_is_master</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>b22f2a924f2523002e7e8020a310c7a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>vendor_contract</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:55</sys_created_on>
-            <sys_id>710d4ae24f8123002e7e8020a310c7d1</sys_id>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>362f2a924f2523002e7e8020a310c7a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:55</sys_updated_on>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_project</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>b62f2a924f2523002e7e8020a310c7a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>10</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:55</sys_created_on>
-            <sys_id>f10d4ae24f8123002e7e8020a310c7d1</sys_id>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>3a2f2a924f2523002e7e8020a310c7a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:55</sys_updated_on>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>substate</element>
-            <position>11</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:55</sys_created_on>
-            <sys_id>750d4ae24f8123002e7e8020a310c7d1</sys_id>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>ba2f2a924f2523002e7e8020a310c7a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:55</sys_updated_on>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>x_175353_contracts_contract_value</element>
-            <position>12</position>
+            <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:55</sys_created_on>
-            <sys_id>f50d4ae24f8123002e7e8020a310c7d1</sys_id>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>3e2f2a924f2523002e7e8020a310c7a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:55</sys_updated_on>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>x_175353_contracts_provisioned_value</element>
-            <position>13</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:55</sys_created_on>
-            <sys_id>790d4ae24f8123002e7e8020a310c7d1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>14</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:55</sys_created_on>
-            <sys_id>f90d4ae24f8123002e7e8020a310c7d1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:55</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
             <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:55</sys_created_on>
-            <sys_id>7d0d4ae24f8123002e7e8020a310c7d1</sys_id>
+            <sys_created_on>2018-11-05 20:41:59</sys_created_on>
+            <sys_id>be2f2a924f2523002e7e8020a310c7a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>16</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:55</sys_created_on>
-            <sys_id>fd0d4ae24f8123002e7e8020a310c7d1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:55</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>approver</element>
-            <position>17</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-10-12 16:19:55</sys_created_on>
-            <sys_id>710d4ae24f8123002e7e8020a310c7d2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">24e04ffe4f6023002e7e8020a310c7b4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-10-12 16:19:55</sys_updated_on>
+            <sys_updated_on>2018-11-05 20:41:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

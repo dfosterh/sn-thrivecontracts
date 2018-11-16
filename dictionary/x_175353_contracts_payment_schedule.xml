@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Payment Schedule" max_length="40" name="x_175353_contracts_payment_schedule" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Amount" max_length="20" name="amount" type="decimal"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Contract" mandatory="true" max_length="32" name="contract" reference="ast_contract" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Method" mandatory="true" max_length="40" name="method" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Actual" sequence="1" value="actual"/>
+                <element inactive_on_update="false" label="Fixed Fee" sequence="2" value="fixedfee"/>
+                <element inactive_on_update="false" label="Not to Exceed" sequence="3" value="nte"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Payment Event" mandatory="true" max_length="40" name="payment_event" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Scheduled" sequence="1" value="scheduled"/>
+                <element inactive_on_update="false" label="Project Task" sequence="2" value="project"/>
+            </choice>
+        </element>
+        <element attributes=" ref_contributions=x_175353_contracts_add_project_task" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Project Task/Phase" max_length="32" name="project_task_phase" reference="pm_project_task" reference_qual="javascript:&quot;parent=&quot;+current.contract.x_175353_contracts_project" type="reference" use_reference_qualifier="advanced"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Scheduled Date" max_length="40" name="scheduled_date" type="glide_date"/>
+        <index name="index">
+            <element name="contract"/>
+        </index>
+        <index name="index2">
+            <element name="project_task_phase"/>
+        </index>
+    </element>
+</database>

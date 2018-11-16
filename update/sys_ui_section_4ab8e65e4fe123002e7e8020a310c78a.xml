@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Settings and Discounts" section_id="4ab8e65e4fe123002e7e8020a310c78a" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="ast_service" version="3" view="Thrive_Contract">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_override_defaults</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-06 22:05:19</sys_created_on>
+            <sys_id>59db8cfe4f2523002e7e8020a310c757</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Settings and Discounts" display_value="Settings and Discounts" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">4ab8e65e4fe123002e7e8020a310c78a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:05:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_mrr_discount_type</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-06 22:05:19</sys_created_on>
+            <sys_id>55db8cfe4f2523002e7e8020a310c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Settings and Discounts" display_value="Settings and Discounts" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">4ab8e65e4fe123002e7e8020a310c78a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:05:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_mrr_discount</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-06 22:05:19</sys_created_on>
+            <sys_id>d5db8cfe4f2523002e7e8020a310c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Settings and Discounts" display_value="Settings and Discounts" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">4ab8e65e4fe123002e7e8020a310c78a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:05:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-06 22:05:19</sys_created_on>
+            <sys_id>59db8cfe4f2523002e7e8020a310c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Settings and Discounts" display_value="Settings and Discounts" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">4ab8e65e4fe123002e7e8020a310c78a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:05:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_include_tax_fee</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-06 22:05:19</sys_created_on>
+            <sys_id>d9db8cfe4f2523002e7e8020a310c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Settings and Discounts" display_value="Settings and Discounts" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">4ab8e65e4fe123002e7e8020a310c78a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:05:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_include_prorated_provisions</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-06 22:05:19</sys_created_on>
+            <sys_id>5ddb8cfe4f2523002e7e8020a310c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Settings and Discounts" display_value="Settings and Discounts" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">4ab8e65e4fe123002e7e8020a310c78a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:05:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_include_prorated_deprovisions</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-06 22:05:19</sys_created_on>
+            <sys_id>dddb8cfe4f2523002e7e8020a310c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Settings and Discounts" display_value="Settings and Discounts" name="ast_service" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="ace00ffe4f6023002e7e8020a310c791">4ab8e65e4fe123002e7e8020a310c78a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:05:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Settings and Discounts</caption>
+            <header>false</header>
+            <name>ast_service</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-05 20:13:49</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>4ab8e65e4fe123002e7e8020a310c78a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Settings and Discounts</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_ui_section_4ab8e65e4fe123002e7e8020a310c78a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-05 20:42:50</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Thrive Contract" name="Thrive_Contract">ace00ffe4f6023002e7e8020a310c791</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

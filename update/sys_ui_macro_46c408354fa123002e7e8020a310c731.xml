@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>add_project_task</name>
+        <scoped_name>x_175353_contracts_add_project_task</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-03 19:03:15</sys_created_on>
+        <sys_id>46c408354fa123002e7e8020a310c731</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>add_project_task</sys_name>
+        <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+        <sys_update_name>sys_ui_macro_46c408354fa123002e7e8020a310c731</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-03 19:14:36</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+   <j:set var="jvar_n" value="add_task_${ref}"/>
+   <span id="${jvar_n}" onclick="addProjTask('${ref}')" title="Add" alt="Add project task" tabindex="0" class="btn btn-default icon-add">
+      <span class="sr-only">Add project task</span>
+   </span>
+
+   <script>
+      function addProjTask(reference) {
+         alert('display modal to get name, date, etc.');
+      }
+   </script>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

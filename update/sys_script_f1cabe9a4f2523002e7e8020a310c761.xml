@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="774190f01f1310005a3637b8ec8b70ef" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>ast_service</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>uiServiceContractSetDefaults</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	try {
+		if (!current.x_175353_contracts_is_master && !current.x_175353_contracts_override_defaults) {
+			var mr = new GlideRecord('ast_service');
+			mr.addQuery('account', current.account);
+			mr.addQuery('x_175353_contracts_is_master', true);
+			mr.addQuery('state', 'active');
+			mr.query();
+
+			if(mr.next()) {
+				if (current.operation() == 'insert') {
+					current.x_175353_contracts_mrr_discount = mr.x_175353_contracts_mrr_discount;
+					current.x_175353_contracts_mrr_discount_type = mr.x_175353_contracts_mrr_discount_type;
+				}
+				else {
+					if (!(current.x_175353_contracts_mrr_discount ==  mr.x_175353_contracts_mrr_discount
+						&& current.x_175353_contracts_mrr_discount_type == mr.x_175353_contracts_mrr_discount_type)
+					) {
+						current.x_175353_contracts_mrr_discount = mr.x_175353_contracts_mrr_discount;
+						current.x_175353_contracts_mrr_discount_type = mr.x_175353_contracts_mrr_discount_type;
+					}
+				}
+			}
+		}
+	}
+	catch(ex) {
+		gs.addErrorMessage('Error in uiServiceContractSetDefaults: ' + ex.message);
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-05 21:37:49</sys_created_on>
+        <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+        <sys_domain_path>!!!/</sys_domain_path>
+        <sys_id>f1cabe9a4f2523002e7e8020a310c761</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>uiServiceContractSetDefaults</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+        <sys_update_name>sys_script_f1cabe9a4f2523002e7e8020a310c761</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-07 22:05:20</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f1cabe9a4f2523002e7e8020a310c761"/>
+</record_update>

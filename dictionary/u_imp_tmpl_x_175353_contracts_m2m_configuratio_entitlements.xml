@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 175353 Contracts M2m Configuratio Entitlements" max_length="40" name="u_imp_tmpl_x_175353_contracts_m2m_configuratio_entitlements" sizeclass="16781" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Account" max_length="255" name="u_account" type="string"/>
+        <element attributes="import_attribute_name=Configuration Item,edge_encryption_enabled=true" label="Configuration Item" max_length="255" name="u_configuration_item" type="string"/>
+        <element attributes="import_attribute_name=Date Provisioned" label="Date Provisioned" max_length="40" name="u_date_provisioned" type="glide_date"/>
+        <element attributes="import_attribute_name=Entitlement,edge_encryption_enabled=true" label="Entitlement" max_length="255" name="u_entitlement" type="string"/>
+        <element attributes="import_attribute_name=Provisioned Quantity" label="Provisioned Quantity" max_length="20" name="u_provisioned_quantity" type="integer"/>
+    </element>
+</database>

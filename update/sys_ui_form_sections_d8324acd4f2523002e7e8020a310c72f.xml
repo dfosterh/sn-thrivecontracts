@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d8324acd4f2523002e7e8020a310c72f" sys_domain="774190f01f1310005a3637b8ec8b70ef" table="pm_project_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-01 20:13:04</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>583206014f6523002e7e8020a310c7b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project_task" name="pm_project_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">d8324acd4f2523002e7e8020a310c72f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="pm_project_task" sys_domain="global" view="Default view">45e77fba7f00000127eda49aeb02bfa6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-01 20:13:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-01 20:13:04</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>5c3206014f6523002e7e8020a310c7b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project_task" name="pm_project_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">d8324acd4f2523002e7e8020a310c72f</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="pm_project_task" sys_domain="global" view="Default view">1bc58d0dc34003004e771bdef1d3ae9d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-01 20:13:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-01 20:13:04</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>503206014f6523002e7e8020a310c7b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project_task" name="pm_project_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">d8324acd4f2523002e7e8020a310c72f</sys_ui_form>
+            <sys_ui_section caption="Agile" display_value="Agile" name="pm_project_task" sys_domain="global" view="Default view">fcf58d0dc34003004e771bdef1d3aeb1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-01 20:13:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-01 20:13:04</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>dc3206014f6523002e7e8020a310c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project_task" name="pm_project_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">d8324acd4f2523002e7e8020a310c72f</sys_ui_form>
+            <sys_ui_section caption="Dates" display_value="Dates" name="pm_project_task" sys_domain="global" view="Default view">0516014dc34003004e771bdef1d3ae99</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-01 20:13:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-01 20:13:04</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>dc3206014f6523002e7e8020a310c7b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project_task" name="pm_project_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">d8324acd4f2523002e7e8020a310c72f</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="pm_project_task" sys_domain="global" view="Default view">be36414dc34003004e771bdef1d3ae28</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-01 20:13:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-01 20:13:04</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d03206014f6523002e7e8020a310c7b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project_task" name="pm_project_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">d8324acd4f2523002e7e8020a310c72f</sys_ui_form>
+            <sys_ui_section caption="Checklist" display_value="Checklist" name="pm_project_task" sys_domain="global" view="Default view">d486814dc34003004e771bdef1d3ae7a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-01 20:13:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-01 20:13:04</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d83206014f6523002e7e8020a310c7b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project_task" name="pm_project_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">d8324acd4f2523002e7e8020a310c72f</sys_ui_form>
+            <sys_ui_section caption="Thrive Invoicing" display_value="Thrive Invoicing" name="pm_project_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">c40604c04f8023002e7e8020a310c7d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-01 20:13:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-01 20:13:04</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>983206014f6523002e7e8020a310c7bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project_task" name="pm_project_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">d8324acd4f2523002e7e8020a310c72f</sys_ui_form>
+            <sys_ui_section caption="Project Billing" display_value="Project Billing" name="pm_project_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">5c3206014f6523002e7e8020a310c7b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-01 20:13:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-01 20:13:34</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>6b4286014f6523002e7e8020a310c756</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pm_project_task" name="pm_project_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">d8324acd4f2523002e7e8020a310c72f</sys_ui_form>
+            <sys_ui_section caption="Contract Billing" display_value="Contract Billing" name="pm_project_task" sys_domain="774190f01f1310005a3637b8ec8b70ef" view="Default view">2f4286014f6523002e7e8020a310c751</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-01 20:13:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>pm_project_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-01 20:13:04</sys_created_on>
+            <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
+            <sys_domain_path>!!!/</sys_domain_path>
+            <sys_id>d8324acd4f2523002e7e8020a310c72f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>pm_project_task</sys_name>
+            <sys_overrides display_value="pm_project_task" name="pm_project_task" sys_domain="global" view="Default view">97c58d0dc34003004e771bdef1d3ae9c</sys_overrides>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d8324acd4f2523002e7e8020a310c72f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-01 20:13:04</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

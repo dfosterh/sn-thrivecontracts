@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Entitlement" max_length="40" name="service_entitlement" sizeclass="9483" type="collection">
         <element label="Bill Contracted Qty" max_length="40" name="x_175353_contracts_bill_contracted_qty" type="boolean"/>
-        <element display="true" label="Business Service" max_length="32" name="x_175353_contracts_business_service" reference="cmdb_ci_service" type="reference"/>
+        <element label="Business Service" max_length="32" name="x_175353_contracts_business_service" reference="cmdb_ci_service" type="reference"/>
         <element default="true" label="Can Exceed Contracted Qty" max_length="40" name="x_175353_contracts_can_exceed_contracted_qty" type="boolean"/>
         <element attributes="omit_sys_original=true" label="Contracted Price" mandatory="true" max_length="20" name="x_175353_contracts_contracted_price" type="currency"/>
         <element label="Contract Quantity" mandatory="true" max_length="40" name="x_175353_contracts_contract_quantity" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="x_175353_contracts_description" type="string"/>
         <element label="Provisioned Quantity" max_length="40" name="x_175353_contracts_provisioned_qty" read_only="true" type="integer"/>
+        <element display="true" label="Service Offering" max_length="32" name="x_175353_contracts_service_offering" reference="service_offering" type="reference"/>
     </element>
 </database>

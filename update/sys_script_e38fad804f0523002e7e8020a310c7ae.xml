@@ -6,12 +6,12 @@
         <action_insert>false</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection/>
+        <collection>x_175353_contracts_m2m_configuratio_entitlements</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
@@ -29,15 +29,15 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	try {
-		if (current.entitlement.x_175353_contracts_business_service != previous.entitlement.x_175353_contracts_business_service || current.configuration_item != previous.configuration_item) {
+		if (current.entitlement.x_175353_contracts_service_offering != previous.entitlement.x_175353_contracts_service_offering || current.configuration_item != previous.configuration_item) {
 			gs.addErrorMessage('Error in ThriveContracts.uCIEntitlementProhibitMapChange:');
 			gs.error('Error in ThriveContracts.uCIEntitlementProhibitMapChange: someone updated the M2M record between Entitlement and CI');
 			current.setAbortAction(true);
 		}
 	}
 	catch(ex) {
-		gs.addErrorMessage('Error in ThriveContracts.dCIEntitlementSyncCIRelationship: ' + ex.message);
-		gs.error('Error in ThriveContracts.dCIEntitlementSyncCIRelationship', ex);
+		gs.addErrorMessage('Error in ThriveContracts.uCIEntitlementProhibitMapChange: ' + ex.message);
+		gs.error('Error in ThriveContracts.uCIEntitlementProhibitMapChange', ex);
 	}
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -46,7 +46,7 @@
         <sys_domain>774190f01f1310005a3637b8ec8b70ef</sys_domain>
         <sys_domain_path>!!!/</sys_domain_path>
         <sys_id>e38fad804f0523002e7e8020a310c7ae</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>uCIEntitlementProhibitMapChange</sys_name>
         <sys_overrides/>
         <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
@@ -54,7 +54,7 @@
         <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
         <sys_update_name>sys_script_e38fad804f0523002e7e8020a310c7ae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-04 19:50:41</sys_updated_on>
+        <sys_updated_on>2018-11-16 15:45:04</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

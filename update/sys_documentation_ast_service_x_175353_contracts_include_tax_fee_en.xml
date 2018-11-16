@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_175353_contracts_include_tax_fee" label="Include Tax Fee" language="en" table="ast_service">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_175353_contracts_include_tax_fee</element>
+            <help/>
+            <hint/>
+            <label>Include Tax Fee</label>
+            <language>en</language>
+            <name>ast_service</name>
+            <plural>Include Tax Fees</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-06 22:05:17</sys_created_on>
+            <sys_id>38db4cfe4f2523002e7e8020a310c7f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Include Tax Fee</sys_name>
+            <sys_package display_value="Thrive Contracts" source="x_175353_contracts">32eee16a4f8023002e7e8020a310c708</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Thrive Contracts">32eee16a4f8023002e7e8020a310c708</sys_scope>
+            <sys_update_name>sys_documentation_ast_service_x_175353_contracts_include_tax_fee_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-06 22:05:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
